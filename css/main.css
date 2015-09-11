@@ -1,0 +1,765 @@
+@font-face {
+    font-family: 'proxima_nova_rgbold';
+    src: url('../fonts/proxima_nova_bold-webfont.eot');
+    src: url('../fonts/proxima_nova_bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/proxima_nova_bold-webfont.woff2') format('woff2'),
+    url('../fonts/proxima_nova_bold-webfont.woff') format('woff'),
+    url('../fonts/proxima_nova_bold-webfont.ttf') format('truetype'),
+    url('../fonts/proxima_nova_bold-webfont.svg#proxima_nova_rgbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'proxima_nova_ltlight';
+    src: url('../fonts/proxima_nova_light-webfont.eot');
+    src: url('../fonts/proxima_nova_light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/proxima_nova_light-webfont.woff2') format('woff2'),
+    url('../fonts/proxima_nova_light-webfont.woff') format('woff'),
+    url('../fonts/proxima_nova_light-webfont.ttf') format('truetype'),
+    url('../fonts/proxima_nova_light-webfont.svg#proxima_nova_ltlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'proxima_nova_rgregular';
+    src: url('../fonts/proxima_nova_regular-webfont.eot');
+    src: url('../fonts/proxima_nova_regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/proxima_nova_regular-webfont.woff2') format('woff2'),
+    url('../fonts/proxima_nova_regular-webfont.woff') format('woff'),
+    url('../fonts/proxima_nova_regular-webfont.ttf') format('truetype'),
+    url('../fonts/proxima_nova_regular-webfont.svg#proxima_nova_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'proxima_nova_ltsemibold';
+    src: url('../fonts/proxima_nova_semibold-webfont.eot');
+    src: url('../fonts/proxima_nova_semibold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/proxima_nova_semibold-webfont.woff2') format('woff2'),
+    url('../fonts/proxima_nova_semibold-webfont.woff') format('woff'),
+    url('../fonts/proxima_nova_semibold-webfont.ttf') format('truetype'),
+    url('../fonts/proxima_nova_semibold-webfont.svg#proxima_nova_ltsemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'proxima_nova_ththin';
+    src: url('../fonts/proxima_nova_thin-webfont.eot');
+    src: url('../fonts/proxima_nova_thin-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/proxima_nova_thin-webfont.woff2') format('woff2'),
+    url('../fonts/proxima_nova_thin-webfont.woff') format('woff'),
+    url('../fonts/proxima_nova_thin-webfont.ttf') format('truetype'),
+    url('../fonts/proxima_nova_thin-webfont.svg#proxima_nova_ththin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../fonts/opensans-light-webfont.eot');
+    src: url('../fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/opensans-light-webfont.woff2') format('woff2'),
+    url('../fonts/opensans-light-webfont.woff') format('woff'),
+    url('../fonts/opensans-light-webfont.ttf') format('truetype'),
+    url('../fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html {
+    font-family: "proxima_nova_rgregular";
+}
+header {
+    background: url("../img/bg-header-2.png") no-repeat;
+    background-size: cover;
+}
+.container {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    top: -8%;
+    overflow: hidden;
+}
+.scene {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+}
+.blur {
+    width: 100%;
+    background: url("../img/bg-blur.png") no-repeat 50% 0;
+    height: 100%;
+    position: absolute !important;
+    text-align: center;
+    z-index: 0;
+}
+.top-head {
+    overflow: hidden;
+    -webkit-transition: background .3s ease;
+    -moz-transition:    background .3s ease;
+    -o-transition:      background .3s ease;
+    -ms-transition:     background .3s ease;
+    transition:         background .3s ease;
+}
+.logo-gl{
+    display: inline-block;
+    float: left;
+    margin: 30px 0 0 55px;
+}
+.opener-btn {
+    display: none;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    float: right;
+}
+.opener-btn span {
+    background: #fff;
+    display: block;
+    width: 30px;
+    height: 4px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.3s linear;
+}
+.mobile-nav .opener-btn span:nth-child(1),
+.mobile-nav .opener-btn span:nth-child(3) {
+    transform: translate(0px, 13px) rotate(-45deg) scalex(1.3);
+    margin: 0;
+}
+.mobile-nav .opener-btn span:nth-child(2) {
+    height: 0;
+    margin: 0;
+}
+.mobile-nav .opener-btn span:nth-child(3) {
+    transform: translate(0px, 9px) rotate(45deg) scalex(1.3);
+}
+.mobile-nav .opener-btn span {
+    background: #fff;
+}
+nav {
+    display: inline-block;
+    position: relative;
+    z-index: 4;
+    float: right;
+    overflow: hidden;
+    margin: 48px 41px 0 0;
+    -webkit-transition: height .3s ease;
+    -moz-transition:    height .3s ease;
+    -o-transition:      height .3s ease;
+    -ms-transition:     height .3s ease;
+    transition:         height .3s ease;
+}
+nav a {
+    font-family: "proxima_nova_rgregular";
+    font-size: 0.875rem;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    width: 129px;
+    text-align: center;
+    letter-spacing: 0.075em;
+    vertical-align: top;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+}
+nav a:last-child {
+    padding-right: 0;
+}
+nav a:hover {
+    font-family: "proxima_nova_rgbold";
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+}
+.header-section {
+    margin-top: 7%;
+}
+.logo-ux-group {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 35px;
+}
+.sub-logo {
+    font-family: "proxima_nova_rgbold";
+    text-transform: uppercase;
+    font-size: 2.375rem;
+    color: #fff;
+    letter-spacing: 0.01em;
+}
+.sub-color {
+    margin: 0;
+    padding: 0;
+    color: #f15738;
+}
+.header-information {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    font-family: "proxima_nova_ltlight";
+    color: #fff;
+    font-size: 3.125rem;
+    text-align: center;
+    line-height: 1.4;
+}
+.text {
+    margin: 0;
+    display: inline-block;
+}
+.implement-ideas {
+    display: inline-block;
+    background: url("../img/cloud-header.png") 5px -8px no-repeat;
+    width: 545px;
+    height: 70px;
+    letter-spacing: 0.025em;
+    font-family: "proxima_nova_rgbold";
+}
+.sub-information {
+    margin-top: 15px;
+}
+.sub-information p {
+    color: #b8bcc8;
+    font-family: "open_sanslight";
+    font-size: 1.125rem;
+    font-style: italic;
+    line-height: 2;
+    margin: 0;
+}
+.lear-more {
+    color: #fff;
+    background: #F15738;
+    font-family: "proxima_nova_ltsemibold";
+    letter-spacing: 0.1em;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    padding: 17px 67px;
+    line-height: 1;
+    margin-top: 115px;
+    margin-bottom: 30px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: none;
+}
+.lear-more:hover{
+    background: #FF8A6B;
+}
+.info {
+    margin-bottom: 45px;
+}
+.info-wrapper {
+
+    max-width: 1150px;
+    margin: 121px auto 0;
+}
+.info-wrapper h1 {
+    color: #292c33;
+    text-transform: uppercase;
+    font-family: "proxima_nova_rgbold";
+    font-size: 1.625rem;
+    margin-top: 21px;
+    margin-bottom: 25px;
+}
+.items {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.sub-details {
+    color: #7e7e7e;
+    font-family: "proxima_nova_rgregular";
+    font-size: 1.125rem;
+}
+.partners {
+    background: #F7F8F8;
+    text-align: center;
+}
+.partners h3 {
+    padding-top: 60px;
+    color: #494949;
+    font-family: "proxima_nova_ththin";
+    text-transform: uppercase;
+    font-size: 1rem;
+    line-height: 2;
+    letter-spacing: 0.05em;
+}
+.partners-logo {
+    padding: 45px 40px 80px 40px;
+}
+.logo-items {
+    display: inline-block;
+    width: 16%;
+}
+.our-work {
+    background: #373D4A;
+}
+.our-work h4 {
+    margin: 0;
+    color: #0fa1d3;
+    font-family: "proxima_nova_rgbold";
+    font-size: 1.125rem;
+    padding: 43px 0 23px 30px;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+}
+.content-work {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.projects {
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+}
+.number-projects {
+    display: inline-block;
+    width: 35%;
+    vertical-align: top;
+    color: #fff;
+    font-family: "proxima_nova_ththin";
+    font-size: 5.9375rem;
+    text-align: right;
+    margin-left: 15px;
+    margin-right: 21px;
+}
+.pixel-perfection {
+    width: 27%;
+}
+.sub-success {
+    color: #888b93;
+    font-family: "proxima_nova_rgregular";
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    line-height: 2;
+    margin-top: -17px;
+    margin-right: 6px;
+    letter-spacing: 0.075em;
+}
+.hour-work {
+    width: 30%;
+}
+.info-projects {
+    vertical-align: top;
+    display: inline-block;
+    width: 56%;
+}
+.info-projects h1 {
+    margin: 0;
+    padding: 15px 0 0 0;
+    color: #fff;
+    font-family: "proxima_nova_ththin";
+    font-size: 2.5rem;
+}
+.info-projects p {
+    color: #fff;
+    font-family: "proxima_nova_ththin";
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: 9px;
+    padding-right: 20px;
+}
+.blue {
+    color: #10A1D4;
+}
+.contact-information {
+    background: #343944;
+    min-height: 1000px;
+    position: relative;
+}
+.ukraine-map object {
+    position: absolute;
+    width: 100%;
+    left: -50%;
+    height: 80%;
+    top: 10%;
+}
+.contact-information h1 {
+    text-align: center;
+    color: #fff;
+    font-family: "proxima_nova_ththin";
+    font-size: 2.375rem;
+    letter-spacing: 0.01em;
+    margin: 0;
+    padding: 60px 0 20px 0;
+}
+.contact-details {
+    max-width: 700px;
+    width: 100%;
+    float: right;
+    margin-right: 13%;
+    margin-top: 7px;
+}
+.details {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+.line {
+    position: absolute;
+    left: 0;
+    width: 3px;
+    border-left: 2px dashed rgb(72, 76, 86);;
+    height: 112px;
+}
+.address {
+    width: 200px;
+}
+.email {
+    width: 200px;
+    padding: 0 50px;
+}
+.email .line {
+    bottom: -35%;
+}
+.phone {
+    width: 150px;
+    padding-left: 40px;
+}
+.phone .line {
+    bottom: -35%;
+}
+.details h5 {
+    color: #fff;
+    font-family: "proxima_nova_rgbold";
+    font-size: 1.125rem;
+    line-height: 1.33;
+}
+.more {
+    color: #7C8089;
+    font-family: "proxima_nova_ltlight";
+    font-size: 1.125rem;
+    line-height: 1.33;
+}
+.more p {
+    margin: 0;
+}
+.contact-form {
+    margin-top: 56px;
+}
+.contact-form p {
+    float: left;
+    margin: 0;
+    color: #fff;
+    font-family: "proxima_nova_ltlight";
+    font-size: 1.125rem;
+    padding-bottom: 25px;
+}
+.contact-form span {
+    float: right;
+    color: #878b93;
+    font-family: "proxima_nova_ltlight";
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.725rem;
+    margin-top: 3px;
+}
+#form {
+    clear: both;
+}
+#form input {
+    display: block;
+    width: 700px;
+    margin-top: 15px;
+    color: #888b94;
+    background: transparent;
+    height: 46px;
+    padding-left: 20px;
+    font-family: "proxima_nova_rgbold";
+    font-size: 1.125rem;
+    border: 1px solid #878b94;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#form input:focus {
+    outline: none;
+    border-color: #10A1D4;
+}
+#form textarea {
+    width: 700px;
+    height: 145px;
+    margin-top: 15px;
+    padding: 10px 0 0 20px;
+    color: #fff;
+    background: transparent;
+    border: 1px solid #878b94;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#form textarea:focus {
+    outline: none;
+    border-color: #10a1d4;
+}
+#button-submit {
+    font-family: "proxima_nova_ltsemibold";
+    font-size: 0.875rem;
+    background: #10a1d4;
+    padding: 15px 50px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+#button-submit:focus {
+    outline: none;
+}
+#button-submit:hover {
+    background: #43D4FF;
+}
+
+@media screen and (max-width: 1575px) {
+    .ukraine-map object {
+        left: -60%;
+    }
+}
+@media screen and (max-width: 1380px) {
+    .info-wrapper {
+        max-width: inherit;
+        margin: 121px 15px 30px 15px;
+        text-align: center;
+    }
+    .items {
+        width: 25%;
+        margin: 0 15px 45px 15px;
+    }
+    .info-projects {
+        width: 75%;
+    }
+    .projects {
+        display: block;
+        width: 100%;
+    }
+    .content-work {
+        max-width: inherit;
+    }
+    .number-projects {
+        width: 12%;
+    }
+    .ukraine-map object {
+        left: -62%;
+        height: 70%;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .number-projects {
+        width: 20%;
+    }
+    .contact-details {
+        margin-right: 5%;
+    }
+}
+@media screen and (max-width: 1199px) {
+    .ukraine-map {
+        display: none;
+    }
+    .contact-details {
+        margin: 0 auto;
+        float: none;
+    }
+    .logo-items {
+        display: inline-block;
+        width: 49%;
+        margin: 10px auto;
+    }
+}
+@media screen and (max-width: 998px) {
+    .logo-gl {
+        margin: 30px 0 0 15px;
+    }
+    #container {
+        display: none;
+    }
+    .top-head.mobile-nav {
+        background: #000;
+    }
+    .top-head .opener-btn {
+        position: relative;
+        z-index: 3;
+        display: block;
+        margin-top: 40px;
+        margin-right: 25px;
+    }
+    .top-head nav {
+        display: block;
+        width: 100%;
+        overflow: hidden;
+        position: absolute;
+        top: 85px;
+        margin-top: 0;
+        left: 0;
+        height: 0;
+        background: #000;
+    }
+    .top-head nav a {
+        margin: 10% auto;
+        width: 50%;
+        font-size: 1.5rem;
+        display: block;
+    }
+    .top-head nav a:first-child {
+        margin-top: 2%;
+    }
+    .implement-ideas {
+        background: url("../img/cloud-header.png") 0 45% no-repeat;
+        max-width: 546px;
+        width: 100%;
+        max-height: 87px;
+        height: 100%;
+    }
+    .header-information {
+        width: 100%;
+        font-size: 2.125rem;
+        max-width: inherit;
+    }
+    .lear-more {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .logo-items {
+        display: inline-block;
+        width: 32%;
+        margin: 10px auto;
+    }
+    .info-projects {
+        width: 70%;
+    }
+    #button-submit {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 799px) {
+    .header-information {
+        font-size: 1.5rem;
+    }
+    .sub-information p {
+        font-size: 1rem;
+    }
+    .implement-ideas {
+        background: url("../img/cloud-header.png") 50% 50% no-repeat;
+        width: 50%;
+    }
+    .items {
+        width: 40%;
+    }
+    .number-projects {
+        width: 25%;
+    }
+    .info-projects {
+        width: 55%;
+    }
+    .contact-details {
+        margin: 0 15px;
+        width: inherit;
+        max-width: inherit;
+    }
+    .details {
+        padding: 10px 0 10px 50px;
+    }
+    .details h5 {
+        margin: 0;
+    }
+    .address {
+        width: 30%;
+        padding: 0;
+    }
+    .email {
+        width: 35%;
+        padding: 0;
+    }
+    .phone {
+        width: 33%;
+        padding: 0;
+    }
+    .line {
+        display: none;
+    }
+    #form input, #form textarea {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 650px) {
+    .sub-information p {
+        padding: 0 15px;
+    }
+    .partners h3 {
+        padding: 60px 15px 0 15px;
+    }
+    .number-projects {
+        width: 30%;
+    }
+    .details {
+        width: 100%;
+        text-align: center;
+        display: block;
+        padding: 10px 0;
+    }
+    .contact-form span {
+        padding-top: 3px;
+    }
+    .logo-items{
+        width: 49%;
+    }
+}
+@media screen and (max-width: 585px) {
+    .implement-ideas {
+        background: none;
+        width: inherit;
+        height: inherit;
+    }
+    .items {
+        width: 100%;
+        margin: 0 0 45px 0;
+    }
+}
+@media screen and (max-width: 530px) {
+    .contact-form p {
+        float: none;
+    }
+    #button-submit {
+        width: 100%;
+    }
+    #form {
+        padding-bottom: 30px;
+    }
+    .details {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .top-head nav a {
+        margin: 17% auto;
+    }
+    .number-projects {
+        font-size: 3.75rem;
+    }
+    .logo-items {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 375px) {
+    .top-head nav a {
+        width: 100%;
+        margin: 20% auto;
+    }
+}

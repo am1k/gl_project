@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Шар_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="283.46px" height="283.46px" viewBox="0 0 283.46 283.46" enable-background="new 0 0 283.46 283.46" xml:space="preserve">
+    <script type="text/ecmascript" xlink:href="../../js/smil.user.js"/>
+<g>
+<path fill-rule="evenodd" clip-rule="evenodd" fill="#E46633" d="M81.03,35.581v94.75l56.798,14.85l0.604-94.559L81.03,35.581z
+	 M73.274,25.554l69.289,18.182l0.096,107.316l-69.384-18.786V25.554z"/>
+<path fill-rule="evenodd" clip-rule="evenodd" fill="#E46633" d="M211.853,25.554l-70.211,18.785l0.921,106.648l69.735-19.165
+	L211.853,25.554z M204.097,35.581l-57.401,14.597v94.941l57.847-14.851L204.097,35.581z"/>
+<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#E46633" points="143.327,5.786 211.79,25.459 211.79,29.616 
+	198.758,29.647 143.327,13.846 86.656,29.425 73.274,25.745 73.274,25.206 "/>
+<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#E46633" points="142.055,109.389 212.076,129.633 205.846,131.188 
+	142.5,113.355 79.695,130.807 74.133,128.554 "/>
+<rect x="140.879" y="11.688" fill-rule="evenodd" clip-rule="evenodd" fill="#E46633" width="3.179" height="48.39"/>
+    
+    <animateTransform xmlns="http://www.w3.org/2000/svg"
+        time="6.5"
+        attributeName="transform"
+        attributeType="XML" type="translate"
+        dur="1s"
+        begin="indefinite"
+        from="0 0"
+        to="0 100.401 "
+        fill="freeze"
+        id="down"
+    />
+    <animateTransform animation="stop" xmlns="http://www.w3.org/2000/svg"
+        attributeName="transform"
+        attributeType="XML" type="translate"
+        dur="1s"
+        from="0 100.401"
+        to="0 0"
+        begin="down.end"
+        fill="freeze"
+        id="up"
+    />
+    <animateTransform animation="stop" xmlns="http://www.w3.org/2000/svg"
+        attributeName="transform"
+        attributeType="XML" type="translate"
+        dur="1s"
+        begin="up.end + 0.25s"
+        from="0 0"
+        to="0 100.401"
+        fill="freeze"
+        id="down-2"
+    />
+    <animateTransform animation="stop" xmlns="http://www.w3.org/2000/svg"
+        attributeName="transform"
+        attributeType="XML" type="translate"
+        dur="1s"
+        from="0 100.401"
+        to="0 0"
+        begin="down-2.end"
+        fill="freeze"
+    />
+</g>
+<polygon fill-rule="evenodd" clip-rule="evenodd" transform="translate(0 -22)" fill="#FEFEFE" points="72.988,159.204 72.194,256.336 142.5,276.295 
+	212.743,255.797 212.33,158.316 208.547,157.299 141.737,175.674 77.597,158.029 ">
+
+    </polygon>
+<path fill-rule="evenodd" clip-rule="evenodd" fill="#36322F" d="M15.364,157.779v94.75l56.83,14.85l0.572-94.558L15.364,157.779z
+	 M7.609,147.72l69.29,18.214l0.127,107.284L7.609,254.464V147.72z"/>
+<path fill-rule="evenodd" clip-rule="evenodd" fill="#36322F" d="M146.219,147.72l-70.243,18.816l0.922,106.648l69.766-19.165
+	L146.219,147.72z M138.432,157.779L81.03,172.375v94.939l57.878-14.851L138.432,157.779z"/>
+<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#36322F" points="77.693,127.983 146.155,147.657 146.155,151.813 
+	133.124,151.845 77.693,136.011 21.021,151.623 7.641,147.942 7.641,147.371 "/>
+<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#36322F" points="76.39,231.586 146.442,251.832 140.18,253.354 
+	76.866,235.552 14.061,253.004 8.467,250.751 "/>
+<rect x="75.246" y="133.885" fill-rule="evenodd" clip-rule="evenodd" fill="#36322F" width="3.178" height="48.39"/>
+<path fill-rule="evenodd" clip-rule="evenodd" fill="#36322F" d="M146.665,157.271v94.719l56.797,14.851l0.604-94.528
+	L146.665,157.271z M138.908,147.212l69.29,18.213l0.127,107.284l-69.417-18.754V147.212z"/>
+<path fill-rule="evenodd" clip-rule="evenodd" fill="#36322F" d="M277.487,147.212l-70.21,18.817l0.921,106.615l69.767-19.165
+	L277.487,147.212z M269.733,157.271l-57.403,14.564v94.973l57.848-14.85L269.733,157.271z"/>
+<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#36322F" points="208.96,127.476 277.455,147.117 277.423,151.306 
+	264.392,151.338 208.96,135.503 152.321,151.116 138.94,147.435 138.94,146.863 "/>
+<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#36322F" points="207.689,231.046 277.742,251.323 271.479,252.846 
+	208.167,235.045 145.329,252.498 139.767,250.244 "/>
+<rect x="206.513" y="133.346" fill-rule="evenodd" clip-rule="evenodd" fill="#36322F" width="3.18" height="48.39"/>
+</svg>
+

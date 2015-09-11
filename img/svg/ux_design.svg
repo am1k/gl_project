@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Шар_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="283.46px" height="283.46px" viewBox="0 0 283.46 283.46" enable-background="new 0 0 283.46 283.46" xml:space="preserve">
+		<script type="text/ecmascript" xlink:href="../../js/smil.user.js"/>
+<g>
+	<path fill-rule="evenodd" clip-rule="evenodd" opacity="0" fill="#E46731" d="M78.66,81.494L19.634,22.468c-0.944-0.944-0.944-2.495,0-3.439
+		l1.413-1.413c0.945-0.945,2.494-0.946,3.44,0l58.896,58.896V51.943c0-1.337,1.097-2.432,2.433-2.432h1.999
+		c1.335,0,2.432,1.097,2.432,2.432c0,11.332,0.173,22.688,0.173,33.981c0,1.338-1.097,2.432-2.433,2.433H54.093
+		c-1.335,0-2.432-1.097-2.432-2.433v-1.999c0-1.335,1.094-2.432,2.432-2.432H78.66z">
+        <animate animation="stop" xmlns="http://www.w3.org/2000/svg"
+            attributeName="opacity" attributeType="XML"
+            dur="0.75s"
+            repeatCount="1"
+            begin="circ.end"
+            from="0"
+            to="1"
+            fill="freeze"
+            id="show"/>
+		<animateTransform xmlns="http://www.w3.org/2000/svg"
+		    animation="stop"
+		 	attributeName="transform" attributeType="XML"
+		  	type="translate" dur="0.75s"
+		   	repeatCount="2"
+		   	begin="show.end"
+		    from="-20 -20"
+		    to="0 0"/>
+	</path>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#36322F" d="M152.738,50.133c-18.368,0-35.633,4.711-50.661,12.984
+		l-4.842-4.842c16.354-9.372,35.303-14.731,55.503-14.731c61.743,0,111.796,50.053,111.796,111.796
+		c0,61.742-50.053,111.795-111.796,111.795c-61.742,0-111.794-50.053-111.794-111.795c0-20.538,5.543-39.777,15.207-56.316
+		l4.828,4.827c-8.56,15.22-13.446,32.782-13.446,51.489c0,58.106,47.101,105.207,105.206,105.207
+		c58.107,0,105.208-47.101,105.208-105.207S210.846,50.133,152.738,50.133z"/>
+	<circle fill-rule="evenodd" opacity="0" clip-rule="evenodd" fill="#E46731" cx="152.739" cy="155.34" r="12.565">
+		<animate
+		 time="2.5"
+		 attributeName="opacity"
+		 values="0; 1"
+		 dur="0.5s"
+		 begin="indefinite"
+		 fill="freeze"
+		 id="circ"
+		 />
+	</circle>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#36322F" d="M152.74,80.464c-41.354,0-74.876,33.521-74.876,74.875
+		c0,34.668,23.562,63.828,55.544,72.351v3.973c-34.128-8.617-59.387-39.519-59.387-76.323c0-43.475,35.243-78.719,78.719-78.719
+		c43.475,0,78.717,35.244,78.717,78.719c0,36.805-25.259,67.706-59.388,76.323v-3.973c31.983-8.523,55.545-37.683,55.545-72.351
+		C227.614,113.986,194.093,80.464,152.74,80.464L152.74,80.464z M152.74,105.854c-27.329,0-49.486,22.156-49.486,49.485
+		c0,27.328,22.157,49.484,49.486,49.484c20.219,0,37.604-12.131,45.282-29.51h-4.235c-7.408,15.196-23.004,25.667-41.047,25.667
+		c-25.208,0-45.643-20.434-45.643-45.642c0-25.208,20.435-45.642,45.643-45.642c18.043,0,33.639,10.471,41.047,25.667h4.235
+		C190.345,117.985,172.96,105.854,152.74,105.854z"/>
+	<rect x="74.773" y="153.418" fill-rule="evenodd" clip-rule="evenodd" fill="#36322F" width="30.605" height="3.844"/>
+	<rect x="150.818" y="47.25" fill-rule="evenodd" clip-rule="evenodd" fill="#36322F" width="3.844" height="30.605"/>
+</g>
+</svg>
