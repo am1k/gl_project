@@ -12,6 +12,7 @@ var pixel = new CountUp("pixels", 0, 1.1, 1, 2, options);
 
 var hours = new CountUp("hours", 0, 2.4, 1, 1.8, options);
 
+
 document.querySelector('.opener-btn').addEventListener('click', function(){
     document.querySelector('.top-head').classList.toggle('mobile-nav');
     if(document.querySelector('.top-head').classList.contains('mobile-nav')){
