@@ -12,7 +12,7 @@
             time="0"
             attributeName="transform"
             type="translate"
-            dur="1s"
+            dur="1.5s"
             begin="indefinite"
             values="0 0;
                    -50 0;
@@ -45,7 +45,7 @@
             time="0"
             attributeName="transform"
             type="translate"
-            dur="1s"
+            dur="1.5s"
             begin="indefinite"
             values="0 0;
                     -50 0;
