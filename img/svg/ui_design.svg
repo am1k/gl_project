@@ -15,7 +15,7 @@
             L156.983,140.278z">
         </path>
         <animateTransform
-            time="13"
+            time="14"
             xmlns="http://www.w3.org/2000/svg"
             attributeName="transform"
             attributeType="XML"
@@ -36,7 +36,7 @@
 			l-63.422-32.393C178.655,178.715,175.401,176.986,172.146,175.258z"/>
         <animateTransform
             xmlns="http://www.w3.org/2000/svg"
-            time="13"
+            time="14"
             attributeName="transform"
             attributeType="XML"
             type="translate"
@@ -52,7 +52,7 @@
             L67.932,237.534 L67.932,237.534z">
             <animateTransform
                 xmlns="http://www.w3.org/2000/svg"
-                time="13"
+                time="14"
                 attributeName="transform"
                 attributeType="XML"
                 type="rotate"
@@ -65,7 +65,7 @@
         <path fill-rule="evenodd" clip-rule="evenodd" fill="#36322F" d="M158.84,146.627 l72.137-72.137 l2.444,2.445 l-71.898,71.899 L158.84,146.627z">
             <animateTransform
                 xmlns="http://www.w3.org/2000/svg"
-                time="13"
+                time="14"
                 attributeName="transform"
                 attributeType="XML"
                 type="rotate"
@@ -81,7 +81,7 @@
 		L138.858,153.129L138.858,153.129z M128.949,153.129l20.699,20.699l20.699-20.699l-20.699-20.699L128.949,153.129z">
         <animateTransform
             xmlns="http://www.w3.org/2000/svg"
-            time="13"
+            time="14"
             attributeName="transform"
             attributeType="XML"
             type="translate"
