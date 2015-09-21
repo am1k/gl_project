@@ -141,15 +141,3 @@ window.addEventListener('scroll', function(){
     checkViewAreaMap();
 });
 
-
-
-//
-//items.map(function(item){
-//    var promise = new Promise();
-//
-//    item.addEventListener('load', function(){
-//       promise.resolve();
-//    });
-//
-//    return promise;
-//});
