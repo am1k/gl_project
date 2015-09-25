@@ -22,7 +22,7 @@
                    -25 35;
                     0 30;
                     5 15;
-                    0 0z"
+                    0 0"
             repeatCount="2"
             fill="freeze"
         />
@@ -59,7 +59,7 @@
                    -25 35;
                     0 30;
                     5 15;
-                    0 0z"
+                    0 0"
             fill="freeze"
             repeatCount="2"
     />
