@@ -36,7 +36,7 @@
             c0.429-2.656,0.973-5.313,1.63-7.882l-14.614-11.45l6.149-14.79l18.647,2.256c1.373-2.227,2.86-4.397,4.433-6.51l-9.209-16.332
             l11.325-11.307l16.502,9.251c2.088-1.513,4.262-2.941,6.492-4.283l-2.288-18.702l14.815-6.139l11.697,14.875
             c2.516-0.6,5.062-1.085,7.636-1.484l5.062-18.159h16.045L191.228,73.664z"/>
-        <animateTransform time="20" xmlns="http://www.w3.org/2000/svg" attributeName="transform" attributeType="XML" type="rotate" dur="6s" begin="indefinite" end="23" repeatCount="indefinite" from="0 177.9285 159.365" to="360 177.9285 159.365"/>
+        <animateTransform time="20" xmlns="http://www.w3.org/2000/svg" attributeName="transform" attributeType="XML" type="rotate" dur="6s" begin="indefinite" end="24" repeatCount="indefinite" from="0 177.9285 159.365" to="360 177.9285 159.365"/>
 	</g>
 	<g>
         <path fill-rule="evenodd" clip-rule="evenodd" fill="#E46633" d="M56.695,54.734c-11.011,0-19.905,8.908-19.905,19.901
@@ -65,7 +65,7 @@
             l-1.287-1.884l1.458-1.77l5.462-6.481l1.459-1.771l2.087,0.942l12.069,5.454c1.287-1,2.631-1.885,4.004-2.684
             c1.43-0.856,2.917-1.599,4.49-2.255l2.603-13.962l0.429-2.255l2.288-0.2l8.465-0.743l2.288-0.2l0.801,2.142L62.3,34.547z">
         </path>
-        <animateTransform time="20" xmlns="http://www.w3.org/2000/svg" attributeName="transform" attributeType="XML" type="rotate" dur="3s" begin="indefinite" end="23" repeatCount="indefinite" from="0 56.709500000000006 74.634" to="-360 56.709500000000006 74.634"/>
+        <animateTransform time="20" xmlns="http://www.w3.org/2000/svg" attributeName="transform" attributeType="XML" type="rotate" dur="3s" begin="indefinite" end="24" repeatCount="indefinite" from="0 56.709500000000006 74.634" to="-360 56.709500000000006 74.634"/>
     </g>
 </g>
 </svg>
