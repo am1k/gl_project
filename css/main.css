@@ -378,6 +378,7 @@ nav a:hover {
     background: #343944;
     min-height: 1000px;
     position: relative;
+    margin-top: -1px;
 }
 .ukraine-map object {
     position: absolute;
@@ -399,6 +400,8 @@ nav a:hover {
     max-width: 700px;
     width: 100%;
     float: right;
+    position: relative;
+    z-index: 1;
     margin-right: 13%;
     margin-top: 7px;
 }
@@ -473,11 +476,11 @@ nav a:hover {
     display: block;
     width: 700px;
     margin-top: 15px;
-    color: #888b94;
+    color: #fff;
     background: transparent;
     height: 46px;
     padding-left: 20px;
-    font-family: "proxima_nova_rgbold";
+    font-family: "proxima_nova_ltlight";
     font-size: 1.125rem;
     border: 1px solid #878b94;
     -webkit-border-radius: 5px;
@@ -485,6 +488,12 @@ nav a:hover {
     border-radius: 5px;
     box-sizing: border-box;
 }
+
+#form ::-webkit-input-placeholder {font-family: "proxima_nova_ltsemibold";}
+#form ::-moz-placeholder          {font-family: "proxima_nova_ltsemibold";}
+#form :-moz-placeholder           {font-family: "proxima_nova_ltsemibold";}
+#form :-ms-input-placeholder      {font-family: "proxima_nova_ltsemibold";}
+
 #form input:focus {
     outline: none;
     border-color: #10A1D4;
@@ -766,5 +775,21 @@ nav a:hover {
     .top-head nav a {
         width: 100%;
         margin: 20% auto;
+    }
+}
+@media screen and (max-height: 767px) {
+    .header-section {
+        margin-top: 3%;
+    }
+    .lear-more {
+        margin-top: 5%;
+    }
+}
+@media screen and (max-height: 650px) {
+    .header-section {
+        margin-top: 1%;
+    }
+    .logo-ux-group {
+        margin-bottom: 1%;
     }
 }

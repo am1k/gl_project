@@ -18,14 +18,46 @@
             to="1"
             fill="freeze"
             id="show"/>
+
+
 		<animateTransform xmlns="http://www.w3.org/2000/svg"
 		    animation="stop"
 		 	attributeName="transform" attributeType="XML"
-		  	type="translate" dur="0.75s"
-		   	repeatCount="2"
+		  	type="translate" dur="0.5s"
 		   	begin="show.end"
+		    from="0 0"
+		    to="-20 -20"
+		    fill="freeze"
+		    id="cursor3"/>
+
+		<animateTransform xmlns="http://www.w3.org/2000/svg"
+		    animation="stop"
+		 	attributeName="transform" attributeType="XML"
+		  	type="translate" dur="0.5s"
+		   	begin="cursor3.end"
 		    from="-20 -20"
-		    to="0 0"/>
+		    to="0 0"
+		    fill="freeze"
+		    id="cursor"/>
+
+        <animateTransform xmlns="http://www.w3.org/2000/svg"
+            animation="stop"
+            attributeName="transform" attributeType="XML"
+            type="translate" dur="0.5s"
+            begin="cursor.end + 0.1s"
+            to="-20 -20"
+            from="0 0"
+            fill="freeze"
+            id="cursor2"/>
+
+        <animateTransform xmlns="http://www.w3.org/2000/svg"
+            animation="stop"
+            attributeName="transform" attributeType="XML"
+            type="translate" dur="0.5s"
+            begin="cursor2.end + 0.1s"
+            from="-20 -20"
+            fill="freeze"
+            to="0 0"/>
 	</path>
 	<path fill-rule="evenodd" clip-rule="evenodd" fill="#36322F" d="M152.738,50.133c-18.368,0-35.633,4.711-50.661,12.984
 		l-4.842-4.842c16.354-9.372,35.303-14.731,55.503-14.731c61.743,0,111.796,50.053,111.796,111.796

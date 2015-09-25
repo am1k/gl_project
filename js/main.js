@@ -125,7 +125,6 @@ var flag = false;
 var icons = Promise.all(Array.prototype.map.call(objArray, function(item){
     return new Promise(function(resolve, reject){
         item.addEventListener('load', function(){
-            console.log(item);
             resolve(item);
             reject(new Error("Error"));
         });

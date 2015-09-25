@@ -15,10 +15,14 @@
             dur="1.5s"
             begin="indefinite"
             values="0 0;
+                   -25 5
                    -50 0;
+                   -55 5;
                    -50 30;
+                   -25 35;
                     0 30;
-                    0 0"
+                    5 15;
+                    0 0z"
             repeatCount="2"
             fill="freeze"
         />
@@ -48,10 +52,14 @@
             dur="1.5s"
             begin="indefinite"
             values="0 0;
-                    -50 0;
-                    -50 30;
-                     0 30;
-                     0 0"
+                   -25 5
+                   -50 0;
+                   -55 5;
+                   -50 30;
+                   -25 35;
+                    0 30;
+                    5 15;
+                    0 0z"
             fill="freeze"
             repeatCount="2"
     />

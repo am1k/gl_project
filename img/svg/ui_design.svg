@@ -2,94 +2,157 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Шар_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="283.46px" height="283.46px" viewBox="0 0 283.46 283.46" enable-background="new 0 0 283.46 283.46" xml:space="preserve">
-		<script type="text/ecmascript" xlink:href="../../js/smil.user.js"/>
+	 width="347.23px" height="283.46px" viewBox="0 0 347.23 283.46" enable-background="new 0 0 347.23 283.46" xml:space="preserve">
+	 <script type="text/ecmascript" xlink:href="../../js/smil.user.js"/>
+<g>
+<path fill-rule="evenodd" clip-rule="evenodd" fill="#E46633" d="M160.257,15.166c15.415,17.759,24.738,40.886,24.738,66.241
+	c0,55.848-45.358,101.131-101.299,101.131c-25.14,0-48.162-9.165-65.865-24.298v-7.737c17.131,16.303,40.325,26.296,65.865,26.296
+	c52.766,0,95.551-42.714,95.551-95.392c0-25.726-10.21-49.081-26.798-66.241H160.257z">
+            <animate
+               xmlns="http://www.w3.org/2000/svg"
+               animation="stop"
+               attributeName="d"
+               attributeType="XML"
+               type="translate"
+               from="M160.257,15.166c15.415,17.759,24.738,40.886,24.738,66.241
+	c0,55.848-45.358,101.131-101.299,101.131c-25.14,0-48.162-9.165-65.865-24.298v-7.737c17.131,16.303,40.325,26.296,65.865,26.296
+	c52.766,0,95.551-42.714,95.551-95.392c0-25.726-10.21-49.081-26.798-66.241H160.257z"
+               to="M160.257,15.166c11.677,25.079,15.236,41.14,15.236,66.495
+	c0,55.848-35.269,108.454-93.51,108.13c-25.139-0.14-50.476-14.621-64.152-31.551v-7.737c13.353,15.931,38.613,33.435,64.152,33.549
+	c53.064,0.238,87.762-49.713,87.762-102.391c0-25.726-3.959-43.357-17.296-66.495H160.257z"
+               dur="0.5s"
+               begin="moveAnimation.end + 0.25s"
+               fill="freeze"
+               />
+    
+            <animate
+               xmlns="http://www.w3.org/2000/svg"
+               animation="stop"
+               attributeName="d"
+               attributeType="XML"
+               type="translate"
+               to="M160.257,15.166c15.415,17.759,24.738,40.886,24.738,66.241
+	c0,55.848-45.358,101.131-101.299,101.131c-25.14,0-48.162-9.165-65.865-24.298v-7.737c17.131,16.303,40.325,26.296,65.865,26.296
+	c52.766,0,95.551-42.714,95.551-95.392c0-25.726-10.21-49.081-26.798-66.241H160.257z"
+               from="M160.257,15.166c11.677,25.079,15.236,41.14,15.236,66.495
+	c0,55.848-35.269,108.454-93.51,108.13c-25.139-0.14-50.476-14.621-64.152-31.551v-7.737c13.353,15.931,38.613,33.435,64.152,33.549
+	c53.064,0.238,87.762-49.713,87.762-102.391c0-25.726-3.959-43.357-17.296-66.495H160.257z"
+               dur="0.5s"
+               begin="turn.end + 0.25s"
+               fill="freeze"
+               />
+    </path>
+        
+</g>
+<g>    
 <g>
     <g>
-        <path fill-rule="evenodd" clip-rule="evenodd" fill="#E46731" d="M17.763,148.699c16.875,16.821,40.154,27.222,65.864,27.222
-            c21.417,0,41.145-7.221,56.891-19.354l4.997,4.997 c-17.045,13.384-38.536,21.364-61.888,21.364
-            c-25.208,0-48.243-9.303-65.864-24.658 V148.699 L17.763,148.699z">
-        </path>
-        <path fill-rule="evenodd" clip-rule="evenodd" fill="#E46731" d="M156.983,140.278c12.49-15.87,19.941-35.891,19.941-57.654
-            c0-25.786-10.461-49.128-27.37-66.014h9.586c15.435,17.64,24.79,40.734,24.79,66.014c0,23.698-8.223,45.472-21.965,62.636
-            L156.983,140.278z">
-        </path>
-        <animateTransform
-            time="14"
-            xmlns="http://www.w3.org/2000/svg"
-            attributeName="transform"
-            attributeType="XML"
-            begin="indefinite"
-            type="translate"
-            dur="1s"
-            repeatCount="2"
-            from="0 0"
-            to="7 7"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" fill="#36322F" d="M61.103,237.272c2.717-2.712,7.149-2.712,9.866,0
+            c2.718,2.741,2.718,7.138,0,9.851c-2.717,2.741-7.149,2.741-9.866,0C58.386,244.41,58.386,240.013,61.103,237.272L61.103,237.272z"
+            />
+        <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#36322F" points="63.105,242.012 225.064,79.836 227.438,82.377
+            65.564,244.467 "/>
+        <path fill-rule="evenodd" clip-rule="evenodd" fill="#36322F" d="M223.262,74.154c2.717-2.712,7.121-2.712,9.867,0
+            c2.717,2.741,2.717,7.138,0,9.851c-2.746,2.741-7.15,2.741-9.867,0C220.517,81.292,220.517,76.895,223.262,74.154L223.262,74.154z"
+            />
     </g>
-	<g>
-		<path fill-rule="evenodd" clip-rule="evenodd" fill="#36322F" d="M185.164,174.082l63.466,32.415
-    		c22.834,12.067,22.072,11.112,3.256,18.931c-12.251,5.092-24.011,17.556-28.461,28.654c-6.646,16.576-6.769,19.213-16.309,1.16
-    		l-37.727-70.127C152.396,153.525,156.45,159.416,185.164,174.082z"/>
-		<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M172.146,175.258c1.152,2.176,2.323,4.342,3.484,6.5
-			l37.727,70.127c0.412,0.766,1.109,2.105,1.902,3.563c0.531-1.334,1.055-2.672,1.588-4.002
-			c5.402-13.473,18.896-26.984,32.32-32.562c1.441-0.599,2.891-1.187,4.336-1.782c-2.696-1.469-5.432-2.885-8.141-4.316
-			l-63.422-32.393C178.655,178.715,175.401,176.986,172.146,175.258z"/>
-        <animateTransform
+    <g>
+        <g>
+            <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#E46633" points="131.601,153.729 152.478,132.857 173.356,153.729
+                152.478,174.572 "/>
+            <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#FEFEFE" points="141.582,153.729 152.478,142.85 163.375,153.729
+                152.478,164.579 "/>
+        </g>
+        <g>
+            <path fill-rule="evenodd" clip-rule="evenodd" fill="#36322F" d="M187.363,174.829l64.034,32.663
+                c23.052,12.135,22.279,11.192,3.289,19.045c-12.354,5.139-24.224,17.702-28.714,28.866c-6.721,16.702-6.835,19.358-16.444,1.17
+                l-38.066-70.638C154.302,154.128,158.391,160.067,187.363,174.829L187.363,174.829z"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M174.236,176.028c1.173,2.17,2.345,4.368,3.518,6.538
+                l38.066,70.638c0.4,0.771,1.115,2.113,1.916,3.598c0.543-1.37,1.058-2.712,1.602-4.054c5.434-13.563,19.076-27.182,32.604-32.778
+                c1.458-0.628,2.917-1.199,4.376-1.799c-2.718-1.484-5.491-2.912-8.209-4.368l-64.005-32.606
+                C180.814,179.511,177.525,177.769,174.236,176.028L174.236,176.028z"/>
+
+            <animateTransform
+            time="15"
             xmlns="http://www.w3.org/2000/svg"
-            time="14"
             attributeName="transform"
             attributeType="XML"
             type="translate"
             begin="indefinite"
             dur="1s"
-            repeatCount="2"
             from="0 0"
-            to="10 10"/>
-	</g>
-	<g>
-		<circle fill-rule="evenodd" clip-rule="evenodd" fill="#36322F" cx="70.845" cy="237.741" r="6.915"/>
-		<path fill-rule="evenodd" clip-rule="evenodd" fill="#36322F" d="M67.932,237.534 l75.554-75.554 l2.358,2.53 l-75.468,75.468
-            L67.932,237.534 L67.932,237.534z">
+            to="65.564 -85.564"
+            fill="freeze"
+            id="moveAnimation"
+             />
+
             <animateTransform
-                xmlns="http://www.w3.org/2000/svg"
-                time="14"
-                attributeName="transform"
-                attributeType="XML"
-                type="rotate"
-                begin="indefinite"
-                dur="1s"
-                repeatCount="2"
-                from="0 67.932 237.534"
-                to="5 67.932 237.534"/>
-        </path>
-        <path fill-rule="evenodd" clip-rule="evenodd" fill="#36322F" d="M158.84,146.627 l72.137-72.137 l2.444,2.445 l-71.898,71.899 L158.84,146.627z">
-            <animateTransform
-                xmlns="http://www.w3.org/2000/svg"
-                time="14"
-                attributeName="transform"
-                attributeType="XML"
-                type="rotate"
-                begin="indefinite"
-                dur="1s"
-                repeatCount="2"
-                from="0 231.568 75.801"
-                to="-5 231.568 75.801"/>
-        </path>
-		<circle fill-rule="evenodd" clip-rule="evenodd" fill="#36322F" cx="231.568" cy="75.801" r="6.915"/>
-	</g>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#E46731" d="M138.858,153.129l10.791-10.79l10.79,10.79l-10.79,10.79
-		L138.858,153.129L138.858,153.129z M128.949,153.129l20.699,20.699l20.699-20.699l-20.699-20.699L128.949,153.129z">
-        <animateTransform
             xmlns="http://www.w3.org/2000/svg"
-            time="14"
+            animation="stop"
             attributeName="transform"
             attributeType="XML"
             type="translate"
-            begin="indefinite"
+            begin="back.end + 0.25s"
             dur="1s"
-            repeatCount="2"
-            from="0 0"
-            to="10 10"/>
-    </path>
+            from="65.564 -85.564"
+            to="0 0"
+            fill="freeze"
+             />
+        </g>
+    </g>
+
+            <animateTransform
+            xmlns="http://www.w3.org/2000/svg"
+            animation="stop"
+            attributeName="transform"
+            attributeType="XML"
+            type="rotate"
+            dur="0.5s"
+            begin="moveAnimation.end + 0.25s"
+            from="0 145.2715 162.1515"
+            to="-13 145.2715 162.1515"
+            id="turn"
+            fill="freeze"
+            />
+
+            <animateTransform
+            xmlns="http://www.w3.org/2000/svg"
+            animation="stop"
+            attributeName="transform"
+            attributeType="XML"
+            type="rotate"
+            dur="0.5s"
+            begin="turn.end + 0.25s"
+            from="-13 145.2715 162.1515"
+            to="0 145.2715 162.1515"
+            fill="freeze"
+            />
+
+
+</g>
+    		<animateTransform
+    		xmlns="http://www.w3.org/2000/svg"
+            animation="stop"
+            attributeName="transform"
+            attributeType="XML"
+            type="translate"
+		  	dur="0.5s"
+		   	begin="moveAnimation.end + 0.25s"
+		    from="0 0"
+		    to="1 1"
+            fill="freeze"/>
+
+            <animateTransform
+            xmlns="http://www.w3.org/2000/svg"
+            animation="stop"
+            attributeName="transform"
+            attributeType="XML"
+            type="translate"
+		  	dur="0.5s"
+		   	begin="turn.end + 0.25s"
+		    to="0 0"
+		    from="1 1"
+            fill="freeze"
+            id="back"/>
 </g>
 </svg>

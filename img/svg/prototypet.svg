@@ -15,10 +15,12 @@
 	142.5,113.355 79.695,130.807 74.133,128.554 "/>
 <rect x="140.879" y="11.688" fill-rule="evenodd" clip-rule="evenodd" fill="#E46633" width="3.179" height="48.39"/>
     
-    <animateTransform xmlns="http://www.w3.org/2000/svg"
+    <animateTransform
+        xmlns="http://www.w3.org/2000/svg"
         time="7.5"
         attributeName="transform"
-        attributeType="XML" type="translate"
+        attributeType="XML"
+        type="translate"
         dur="1s"
         begin="indefinite"
         from="0 0"
