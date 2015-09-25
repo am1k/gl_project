@@ -15,7 +15,7 @@
             dur="1.5s"
             begin="indefinite"
             values="0 0;
-                   -25 5
+                   -25 5;
                    -50 0;
                    -55 5;
                    -50 30;
@@ -52,7 +52,7 @@
             dur="1.5s"
             begin="indefinite"
             values="0 0;
-                   -25 5
+                   -25 5;
                    -50 0;
                    -55 5;
                    -50 30;
