@@ -1,25 +1,3 @@
-/*
- @id {7eeff186-cfb4-f7c3-21f2-a15f210dca49}
- @name FakeSmile
- @version 0.1.52
- @description SMIL implementation in ECMAScript
- @creator David Leunen (leunen.d@gmail.com)
- @homepageURL http://leunen.me/fakesmile/
- @ff_min_version 2.0
- @ff_max_version 3.*
- */
-// ==UserScript==
-// @name smil
-// @namespace svg.smil
-// ==/UserScript==
-
-/* MIT and GPL Licenses */
-
-/*
- Copyright 2008 David Leunen
- Copyright 2012 Helder Magalhaes
- */
-
 /**
  * Milliseconds Per Frame - relation between smoothness and CPU usage:
  * 40 for 25fps ("cine"-look, low CPU usage);
