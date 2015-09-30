@@ -11,7 +11,7 @@
 		c-1.335,0-2.432-1.097-2.432-2.433v-1.999c0-1.335,1.094-2.432,2.432-2.432H78.66z">
         <animate animation="stop" xmlns="http://www.w3.org/2000/svg"
             attributeName="opacity" attributeType="XML"
-            dur="0.5s"
+            dur="0.25s"
             repeatCount="1"
             begin="circ.end"
             from="0"
@@ -66,7 +66,7 @@
 		c58.107,0,105.208-47.101,105.208-105.207S210.846,50.133,152.738,50.133z"/>
 	<circle fill-rule="evenodd" opacity="0" clip-rule="evenodd" fill="#E46731" cx="152.739" cy="155.34" r="12.565">
 		<animate
-		 time="2"
+		 time="1.7"
 		 attributeName="opacity"
 		 values="0; 1"
 		 dur="0.25s"
