@@ -134,7 +134,6 @@ function once(fn) {
 
 var startMainLogo = function(){
     var self = document.querySelector('object#logo');
-    console.log(self);
     Array.prototype.forEach.call(self.contentDocument.querySelector('svg').querySelectorAll('animateTransform'), function(animate){
             animate.beginElement();
 })};
@@ -194,8 +193,15 @@ var icons = Promise.all(Array.prototype.map.call(objArray, function(item){
     checkViewAreaMap();
 });
 
-window.addEventListener('scroll', function(){
-    checkViewAreaAnimate();
-    checkViewAreaMap();
-});
+function responsiveStart(){
+    console.log(document.body.clientWidth );
+    if(document.body.clientWidth > 767){
+        window.addEventListener('scroll', function () {
+            checkViewAreaAnimate();
+            checkViewAreaMap();
+        });
 
+    }
+}
+
+responsiveStart();
