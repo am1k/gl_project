@@ -194,7 +194,6 @@ var icons = Promise.all(Array.prototype.map.call(objArray, function(item){
 });
 
 function responsiveStart(){
-    console.log(document.body.clientWidth );
     if(document.body.clientWidth > 767){
         window.addEventListener('scroll', function () {
             checkViewAreaAnimate();
