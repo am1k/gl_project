@@ -199,7 +199,9 @@ function responsiveStart(){
             checkViewAreaAnimate();
             checkViewAreaMap();
         });
-
+    } else {
+        document.querySelector('#ux-design').removeAttribute('data');
+        document.querySelector('#ux-design').setAttribute('data', 'img/svg/ux_design_mobile.svg');
     }
 }
 

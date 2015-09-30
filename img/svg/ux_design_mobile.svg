@@ -5,75 +5,17 @@
 	 width="283.46px" height="283.46px" viewBox="0 0 283.46 283.46" enable-background="new 0 0 283.46 283.46" xml:space="preserve">
 		<script type="text/ecmascript" xlink:href="../../js/smil.user.js"/>
 <g>
-	<path fill-rule="evenodd" clip-rule="evenodd" opacity="0" fill="#E46731" d="M78.66,81.494L19.634,22.468c-0.944-0.944-0.944-2.495,0-3.439
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#E46731" d="M78.66,81.494L19.634,22.468c-0.944-0.944-0.944-2.495,0-3.439
 		l1.413-1.413c0.945-0.945,2.494-0.946,3.44,0l58.896,58.896V51.943c0-1.337,1.097-2.432,2.433-2.432h1.999
 		c1.335,0,2.432,1.097,2.432,2.432c0,11.332,0.173,22.688,0.173,33.981c0,1.338-1.097,2.432-2.433,2.433H54.093
 		c-1.335,0-2.432-1.097-2.432-2.433v-1.999c0-1.335,1.094-2.432,2.432-2.432H78.66z">
-        <animate animation="stop" xmlns="http://www.w3.org/2000/svg"
-            attributeName="opacity" attributeType="XML"
-            dur="0.5s"
-            repeatCount="1"
-            begin="circ.end"
-            from="0"
-            to="1"
-            fill="freeze"
-            id="show"/>
-
-
-		<animateTransform xmlns="http://www.w3.org/2000/svg"
-		    animation="stop"
-		 	attributeName="transform" attributeType="XML"
-		  	type="translate" dur="0.25s"
-		   	begin="show.end"
-		    from="0 0"
-		    to="-20 -20"
-		    fill="freeze"
-		    id="cursor3"/>
-
-		<animateTransform xmlns="http://www.w3.org/2000/svg"
-		    animation="stop"
-		 	attributeName="transform" attributeType="XML"
-		  	type="translate" dur="0.25s"
-		   	begin="cursor3.end"
-		    from="-20 -20"
-		    to="0 0"
-		    fill="freeze"
-		    id="cursor"/>
-
-        <animateTransform xmlns="http://www.w3.org/2000/svg"
-            animation="stop"
-            attributeName="transform" attributeType="XML"
-            type="translate" dur="0.25s"
-            begin="cursor.end + 0.1s"
-            to="-20 -20"
-            from="0 0"
-            fill="freeze"
-            id="cursor2"/>
-
-        <animateTransform xmlns="http://www.w3.org/2000/svg"
-            animation="stop"
-            attributeName="transform" attributeType="XML"
-            type="translate" dur="0.25s"
-            begin="cursor2.end + 0.1s"
-            from="-20 -20"
-            fill="freeze"
-            to="0 0"/>
 	</path>
 	<path fill-rule="evenodd" clip-rule="evenodd" fill="#36322F" d="M152.738,50.133c-18.368,0-35.633,4.711-50.661,12.984
 		l-4.842-4.842c16.354-9.372,35.303-14.731,55.503-14.731c61.743,0,111.796,50.053,111.796,111.796
 		c0,61.742-50.053,111.795-111.796,111.795c-61.742,0-111.794-50.053-111.794-111.795c0-20.538,5.543-39.777,15.207-56.316
 		l4.828,4.827c-8.56,15.22-13.446,32.782-13.446,51.489c0,58.106,47.101,105.207,105.206,105.207
 		c58.107,0,105.208-47.101,105.208-105.207S210.846,50.133,152.738,50.133z"/>
-	<circle fill-rule="evenodd" opacity="0" clip-rule="evenodd" fill="#E46731" cx="152.739" cy="155.34" r="12.565">
-		<animate
-		 time="2"
-		 attributeName="opacity"
-		 values="0; 1"
-		 dur="0.25s"
-		 begin="indefinite"
-		 fill="freeze"
-		 id="circ"
-		 />
+	<circle fill-rule="evenodd" clip-rule="evenodd" fill="#E46731" cx="152.739" cy="155.34" r="12.565">
 	</circle>
 	<path fill-rule="evenodd" clip-rule="evenodd" fill="#36322F" d="M152.74,80.464c-41.354,0-74.876,33.521-74.876,74.875
 		c0,34.668,23.562,63.828,55.544,72.351v3.973c-34.128-8.617-59.387-39.519-59.387-76.323c0-43.475,35.243-78.719,78.719-78.719
