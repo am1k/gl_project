@@ -17,11 +17,11 @@
     
     <animateTransform
         xmlns="http://www.w3.org/2000/svg"
-        time="7.5"
+        time="4"
         attributeName="transform"
         attributeType="XML"
         type="translate"
-        dur="1s"
+        dur="0.5s"
         begin="indefinite"
         from="0 0"
         to="0 100.401 "
@@ -31,31 +31,12 @@
     <animateTransform animation="stop" xmlns="http://www.w3.org/2000/svg"
         attributeName="transform"
         attributeType="XML" type="translate"
-        dur="1s"
+        dur="0.5s"
         from="0 100.401"
         to="0 0"
         begin="down.end"
         fill="freeze"
         id="up"
-    />
-    <animateTransform animation="stop" xmlns="http://www.w3.org/2000/svg"
-        attributeName="transform"
-        attributeType="XML" type="translate"
-        dur="1s"
-        begin="up.end + 0.25s"
-        from="0 0"
-        to="0 100.401"
-        fill="freeze"
-        id="down-2"
-    />
-    <animateTransform animation="stop" xmlns="http://www.w3.org/2000/svg"
-        attributeName="transform"
-        attributeType="XML" type="translate"
-        dur="1s"
-        from="0 100.401"
-        to="0 0"
-        begin="down-2.end"
-        fill="freeze"
     />
 </g>
 <polygon fill-rule="evenodd" clip-rule="evenodd" transform="translate(0 -22)" fill="#FEFEFE" points="72.988,159.204 72.194,256.336 142.5,276.295 

@@ -20,8 +20,8 @@
                to="M160.257,15.166c11.677,25.079,15.236,41.14,15.236,66.495
 	c0,55.848-35.269,108.454-93.51,108.13c-25.139-0.14-50.476-14.621-64.152-31.551v-7.737c13.353,15.931,38.613,33.435,64.152,33.549
 	c53.064,0.238,87.762-49.713,87.762-102.391c0-25.726-3.959-43.357-17.296-66.495H160.257z"
-               dur="0.5s"
-               begin="moveAnimation.end + 0.25s"
+               dur="0.25s"
+               begin="moveAnimation.end + 0.15s"
                fill="freeze"
                />
 
@@ -37,8 +37,8 @@
                from="M160.257,15.166c11.677,25.079,15.236,41.14,15.236,66.495
 	c0,55.848-35.269,108.454-93.51,108.13c-25.139-0.14-50.476-14.621-64.152-31.551v-7.737c13.353,15.931,38.613,33.435,64.152,33.549
 	c53.064,0.238,87.762-49.713,87.762-102.391c0-25.726-3.959-43.357-17.296-66.495H160.257z"
-               dur="0.5s"
-               begin="turn.end + 0.25s"
+               dur="0.25s"
+               begin="turn.end + 0.15s"
                fill="freeze"
                />
     </path>
@@ -73,13 +73,13 @@
                 C180.814,179.511,177.525,177.769,174.236,176.028L174.236,176.028z"/>
 
             <animateTransform
-            time="15"
+            time="7.5"
             xmlns="http://www.w3.org/2000/svg"
             attributeName="transform"
             attributeType="XML"
             type="translate"
             begin="indefinite"
-            dur="1s"
+            dur="0.5s"
             from="0 0"
             to="65.564 -85.564"
             fill="freeze"
@@ -92,8 +92,8 @@
             attributeName="transform"
             attributeType="XML"
             type="translate"
-            begin="back.end + 0.25s"
-            dur="1s"
+            begin="back.end + 0.15s"
+            dur="0.5s"
             from="65.564 -85.564"
             to="0 0"
             fill="freeze"
@@ -107,8 +107,8 @@
             attributeName="transform"
             attributeType="XML"
             type="rotate"
-            dur="0.5s"
-            begin="moveAnimation.end + 0.25s"
+            dur="0.25s"
+            begin="moveAnimation.end + 0.15s"
             from="0 145.2715 162.1515"
             to="-13 145.2715 162.1515"
             id="turn"
@@ -121,8 +121,8 @@
             attributeName="transform"
             attributeType="XML"
             type="rotate"
-            dur="0.5s"
-            begin="turn.end + 0.25s"
+            dur="0.25s"
+            begin="turn.end + 0.15s"
             from="-13 145.2715 162.1515"
             to="0 145.2715 162.1515"
             fill="freeze"
@@ -136,8 +136,8 @@
             attributeName="transform"
             attributeType="XML"
             type="translate"
-		  	dur="0.5s"
-		   	begin="moveAnimation.end + 0.25s"
+		  	dur="0.25s"
+		   	begin="moveAnimation.end + 0.15s"
 		    from="0 0"
 		    to="1 1"
             fill="freeze"/>
@@ -148,8 +148,8 @@
             attributeName="transform"
             attributeType="XML"
             type="translate"
-		  	dur="0.5s"
-		   	begin="turn.end + 0.25s"
+		  	dur="0.25s"
+		   	begin="turn.end + 0.15s"
 		    to="0 0"
 		    from="1 1"
             fill="freeze"

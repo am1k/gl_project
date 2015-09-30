@@ -30,7 +30,7 @@
 		C192.635,44.31,164.598,16.272,130.009,16.272z">
 	</path>
     <animate
-        time="11.5"
+        time="5.5"
         xlink:href="#red"
         attributeName="opacity" values="1; 0" dur="0.25s"
         repeatCount="1"
@@ -38,7 +38,7 @@
         fill="freeze"
      />
     <animate
-        time="11.5"
+        time="5.5"
         xlink:href="#black"
         attributeName="opacity" values="1; 0" dur="0.25s"
         repeatCount="1"
@@ -46,7 +46,7 @@
         begin="indefinite"
     />
     <animate
-        time="12.5"
+        time="6"
         id="anim"
         xlink:href="#red"
         attributeName="opacity" values="0; 1;" dur="0.25s"

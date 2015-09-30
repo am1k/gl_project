@@ -109,7 +109,6 @@ function debounce(fn, delay){
 }
 recalculate();
 
-
 window.addEventListener('resize', debounce(recalculate, 200));
 window.addEventListener('scroll', function(){
     var scrolled = window.pageYOffset || document.documentElement.scrollTop;
@@ -132,6 +131,17 @@ function once(fn) {
         }
     }
 }
+
+var startMainLogo = function(){
+    var self = document.querySelector('object#logo');
+    console.log(self);
+    Array.prototype.forEach.call(self.contentDocument.querySelector('svg').querySelectorAll('animateTransform'), function(animate){
+            animate.beginElement();
+})};
+
+window.addEventListener('load', setTimeout(startMainLogo, 1500));
+
+
 
 var startAnimate = once(function(){
     var self = document.querySelectorAll('object');

@@ -108,7 +108,10 @@ header {
 .logo-gl{
     display: inline-block;
     float: left;
+    position: relative;
+    z-index: 4;
     margin: 30px 0 0 55px;
+    cursor: pointer;
 }
 .opener-btn {
     display: none;
@@ -175,7 +178,7 @@ nav a:last-child {
     padding-right: 0;
 }
 nav a:hover {
-    font-family: "proxima_nova_rgbold";
+    color: #b8bcc8;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -245,14 +248,22 @@ nav a:hover {
     padding: 17px 67px;
     line-height: 1;
     margin-top: 115px;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
     border: none;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
 }
 .lear-more:hover{
-    background: #FF8A6B;
+    background: #D04327;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
 }
 .info {
     margin-bottom: 45px;
@@ -528,12 +539,21 @@ nav a:hover {
     -moz-border-radius: 5px;
     border-radius: 5px;
     margin-top: 25px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+
 }
 #button-submit:focus {
     outline: none;
 }
 #button-submit:hover {
-    background: #43D4FF;
+    background: #058DBD;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
 }
 
 @media screen and (max-width: 1575px) {
@@ -779,17 +799,9 @@ nav a:hover {
 }
 @media screen and (max-height: 767px) {
     .header-section {
-        margin-top: 3%;
-    }
-    .lear-more {
-        margin-top: 5%;
-    }
-}
-@media screen and (max-height: 650px) {
-    .header-section {
         margin-top: 1%;
     }
     .logo-ux-group {
-        margin-bottom: 1%;
+        margin-bottom: 0;
     }
 }
