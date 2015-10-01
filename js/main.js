@@ -166,61 +166,6 @@ var startMap = once(function(){
     });
 });
 
-discovery.addEventListener('mouseover', function(){
-    var self = discovery;
-    Array.prototype.forEach.call(self.contentDocument.querySelector('svg').querySelectorAll('animate, animateTransform'), function(animate){
-        if(!animate.hasAttribute('animation')) {
-            animate.beginElement();
-        }
-    });
-});
-
-
-uxDesign.addEventListener('mouseover', function(){
-    var self = uxDesign;
-    Array.prototype.forEach.call(self.contentDocument.querySelector('svg').querySelectorAll('animate, animateTransform'), function(animate){
-        if(!animate.hasAttribute('animation')) {
-            animate.beginElement();
-        }
-    });
-});
-
-prototype.addEventListener('mouseover', function(){
-    var self = prototype;
-    Array.prototype.forEach.call(self.contentDocument.querySelector('svg').querySelectorAll('animate, animateTransform'), function(animate){
-        if(!animate.hasAttribute('animation')) {
-            animate.beginElement();
-        }
-    });
-});
-
-userTesting.addEventListener('mouseover', function(){
-    var self = userTesting;
-    Array.prototype.forEach.call(self.contentDocument.querySelector('svg').querySelectorAll('animate, animateTransform'), function(animate){
-        if(!animate.hasAttribute('animation')) {
-            animate.beginElement();
-        }
-    });
-});
-
-uiSvg.addEventListener('mouseover', function(){
-    var self = uiSvg;
-    Array.prototype.forEach.call(self.contentDocument.querySelector('svg').querySelectorAll('animate, animateTransform'), function(animate){
-        if(!animate.hasAttribute('animation')) {
-            animate.beginElement();
-        }
-    });
-});
-
-development.addEventListener('mouseover', function(){
-    var self = development;
-    Array.prototype.forEach.call(self.contentDocument.querySelector('svg').querySelectorAll('animate, animateTransform'), function(animate){
-        if(!animate.hasAttribute('animation')) {
-            animate.beginElement();
-        }
-    });
-});
-
 function checkViewAreaAnimate(){
     var scrolled = window.pageYOffset || document.documentElement.scrollTop;
     if(flag && (scrolled + heightScreen >= infoStartAnimation) && (scrolled + heightScreen) <= infoStartAnimation + heightScreen/2) {
@@ -257,6 +202,60 @@ function responsiveStart(){
         window.addEventListener('scroll', function () {
             checkViewAreaAnimate();
             checkViewAreaMap();
+        });
+        discovery.addEventListener('mouseover', function(){
+            var self = discovery;
+            Array.prototype.forEach.call(self.contentDocument.querySelector('svg').querySelectorAll('animate, animateTransform'), function(animate){
+                if(!animate.hasAttribute('animation')) {
+                    animate.beginElement();
+                }
+            });
+        });
+
+
+        uxDesign.addEventListener('mouseover', function(){
+            var self = uxDesign;
+            Array.prototype.forEach.call(self.contentDocument.querySelector('svg').querySelectorAll('animate, animateTransform'), function(animate){
+                if(!animate.hasAttribute('animation')) {
+                    animate.beginElement();
+                }
+            });
+        });
+
+        prototype.addEventListener('mouseover', function(){
+            var self = prototype;
+            Array.prototype.forEach.call(self.contentDocument.querySelector('svg').querySelectorAll('animate, animateTransform'), function(animate){
+                if(!animate.hasAttribute('animation')) {
+                    animate.beginElement();
+                }
+            });
+        });
+
+        userTesting.addEventListener('mouseover', function(){
+            var self = userTesting;
+            Array.prototype.forEach.call(self.contentDocument.querySelector('svg').querySelectorAll('animate, animateTransform'), function(animate){
+                if(!animate.hasAttribute('animation')) {
+                    animate.beginElement();
+                }
+            });
+        });
+
+        uiSvg.addEventListener('mouseover', function(){
+            var self = uiSvg;
+            Array.prototype.forEach.call(self.contentDocument.querySelector('svg').querySelectorAll('animate, animateTransform'), function(animate){
+                if(!animate.hasAttribute('animation')) {
+                    animate.beginElement();
+                }
+            });
+        });
+
+        development.addEventListener('mouseover', function(){
+            var self = development;
+            Array.prototype.forEach.call(self.contentDocument.querySelector('svg').querySelectorAll('animate, animateTransform'), function(animate){
+                if(!animate.hasAttribute('animation')) {
+                    animate.beginElement();
+                }
+            });
         });
     } else {
         document.querySelector('#ux-design').removeAttribute('data');
