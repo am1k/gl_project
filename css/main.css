@@ -577,7 +577,8 @@ nav a:hover {
     }
     .projects {
         display: block;
-        width: 100%;
+        width: inherit;
+        margin: 0 15px;
     }
     .content-work {
         max-width: inherit;
@@ -701,6 +702,9 @@ nav a:hover {
     .info-projects {
         width: 55%;
     }
+    .info-projects p {
+        padding-right: 0;
+    }
     .contact-information h1 {
         letter-spacing: 0;
     }
@@ -811,9 +815,6 @@ nav a:hover {
     .top-head nav a {
         width: 100%;
         margin: 15% auto;
-    }
-    .projects {
-        margin: 0 15px;
     }
     .number-projects {
         margin: 0;
