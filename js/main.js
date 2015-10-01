@@ -85,6 +85,7 @@ var mainBlock = document.querySelector('.our-work'),
     userTesting = document.querySelector('#user-testing'),
     uiSvg = document.querySelector('#ui-svg'),
     development = document.querySelector('#development'),
+    map = document.querySelector('#map'),
     heightHeader = header.offsetHeight;
 
 function recalculate(){
@@ -144,7 +145,7 @@ var startMainLogo = function(){
             animate.beginElement();
 })};
 
-setTimeout(function() { startMainLogo();}, 2000);
+setTimeout(function() { startMainLogo();}, 1000);
 
 var startAnimate = once(function(){
     var self = document.querySelectorAll('object');
@@ -252,6 +253,14 @@ function responsiveStart(){
         development.addEventListener('mouseover', function(){
             var self = development;
             Array.prototype.forEach.call(self.contentDocument.querySelector('svg').querySelectorAll('animate, animateTransform'), function(animate){
+                if(!animate.hasAttribute('animation')) {
+                    animate.beginElement();
+                }
+            });
+        });
+        map.addEventListener('mouseover', function(){
+            var self = map;
+            Array.prototype.forEach.call(self.contentDocument.querySelector('svg').querySelectorAll('animate#base1'), function(animate){
                 if(!animate.hasAttribute('animation')) {
                     animate.beginElement();
                 }

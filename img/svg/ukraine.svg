@@ -155,6 +155,18 @@
              fill="freeze"
              id="base"
              />
+        <animate
+             time="0"
+             attributeName="opacity"
+             from="0"
+             to="1"
+             dur="0.1s"
+             begin="indefinite"
+             repeatCount="1"
+             fill="freeze"
+             id="base1"
+             />
+
 	</circle>
     <circle id="circle-mid" r="20" cx="983px" cy="265px" opacity="0" fill="white">
         <animate animation="stop"
@@ -176,6 +188,26 @@
              repeatCount="2"
              fill="freeze"
              />
+
+        <animate animation="stop"
+            attributeName="opacity"
+            from="0.8"
+            to="0.2"
+            dur="1s"
+            begin="base.end"
+            repeatCount="2"
+            fill="freeze"
+            id="circ1"
+          />
+        <animate
+            attributeName="r"
+            from="0"
+            to="25"
+            dur="1s"
+            begin="base1.end"
+            repeatCount="2"
+            fill="freeze"
+          />
     </circle>
     <circle id="circle-out" r="40" cx="983px" cy="265px" opacity="0" fill="white">
         <animate animation="stop"
@@ -193,6 +225,21 @@
              fill="freeze"
              begin="base.end"
              />
+        <animate animation="stop"
+            attributeName="opacity"
+            from="0.7"
+            to="0.2"
+            dur="1s"
+            begin="base1.end"
+            repeatCount="2"
+            fill="freeze"
+          />
+        <animate animation="stop"
+            attributeName="r" from="25" to="40" dur="1s"
+            repeatCount="2"
+            fill="freeze"
+            begin="base1.end"
+          />
     </circle>
     <path id="line"
         stroke="#484C56"

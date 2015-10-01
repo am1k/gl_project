@@ -162,7 +162,7 @@ nav a {
     font-family: "proxima_nova_rgregular";
     font-size: 0.875rem;
     text-decoration: none;
-    color: #fff;
+    color: #b8bcc8;
     display: inline-block;
     text-transform: uppercase;
     width: 129px;
@@ -178,7 +178,7 @@ nav a:last-child {
     padding-right: 0;
 }
 nav a:hover {
-    color: #b8bcc8;
+    color: #fff;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -195,8 +195,8 @@ nav a:hover {
 }
 .sub-logo {
     font-family: "proxima_nova_rgbold";
+    font-size: 1.625rem;
     text-transform: uppercase;
-    font-size: 2.375rem;
     color: #fff;
     letter-spacing: 0.01em;
 }
@@ -277,6 +277,7 @@ nav a:hover {
     color: #292c33;
     text-transform: uppercase;
     font-family: "proxima_nova_rgbold";
+    font-weight: 400;
     font-size: 1.625rem;
     margin-top: 21px;
     margin-bottom: 25px;
@@ -425,7 +426,7 @@ nav a:hover {
     position: absolute;
     left: 0;
     width: 3px;
-    border-left: 2px dashed rgb(72, 76, 86);;
+    border-left: 1px dashed rgb(72, 76, 86);
     height: 112px;
 }
 .address {
@@ -549,7 +550,7 @@ nav a:hover {
     outline: none;
 }
 #button-submit:hover {
-    background: #058DBD;
+    background: #0983AF;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -700,6 +701,12 @@ nav a:hover {
     .info-projects {
         width: 55%;
     }
+    .contact-information h1 {
+        letter-spacing: 0;
+    }
+    .sub-success {
+        letter-spacing: 0;
+    }
     .contact-details {
         margin: 0 15px;
         width: inherit;
@@ -712,14 +719,17 @@ nav a:hover {
         margin: 0;
     }
     .address {
+        text-align: center;
         width: 30%;
         padding: 0;
     }
     .email {
+        text-align: center;
         width: 35%;
         padding: 0;
     }
     .phone {
+        text-align: center;
         width: 33%;
         padding: 0;
     }
@@ -744,7 +754,8 @@ nav a:hover {
         width: 100%;
         text-align: center;
         display: block;
-        padding: 10px 0;
+        padding: 10px 0 20px;
+        border-bottom: 1px dashed rgb(72, 76, 86);
     }
     .contact-form span {
         padding-top: 3px;
@@ -778,6 +789,9 @@ nav a:hover {
         width: 100%;
         margin-bottom: 15px;
     }
+    .required {
+        padding-bottom: 10px;
+    }
 }
 @media screen and (max-width: 480px) {
     .top-head nav a {
@@ -789,11 +803,31 @@ nav a:hover {
     .logo-items {
         width: 100%;
     }
+    .sub-success {
+        margin-top: 0;
+    }
 }
 @media screen and (max-width: 375px) {
     .top-head nav a {
         width: 100%;
         margin: 15% auto;
+    }
+    .projects {
+        margin: 0 15px;
+    }
+    .number-projects {
+        margin: 0;
+        width: 100%;
+        text-align: left;
+    }
+    #project, #pixels, #hours {
+        display: inline-block;
+    }
+    .sub-success {
+        display: inline-block;
+    }
+    .info-projects {
+        width: 100%;
     }
 }
 @media screen and (max-height: 767px) {
