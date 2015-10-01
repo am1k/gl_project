@@ -144,7 +144,7 @@ var startMainLogo = function(){
             animate.beginElement();
 })};
 
-window.addEventListener('load', setTimeout(startMainLogo, 1500));
+setTimeout(function() { startMainLogo();}, 2000);
 
 var startAnimate = once(function(){
     var self = document.querySelectorAll('object');
