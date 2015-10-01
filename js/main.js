@@ -79,6 +79,12 @@ var mainBlock = document.querySelector('.our-work'),
     screenHeight = document.documentElement,
     empty = '0px',
     heightScreen = screenHeight.clientHeight,
+    discovery = document.querySelector('#discovery'),
+    uxDesign = document.querySelector('#ux-design'),
+    prototype = document.querySelector('#prototype'),
+    userTesting = document.querySelector('#user-testing'),
+    uiSvg = document.querySelector('#ui-svg'),
+    development = document.querySelector('#development'),
     heightHeader = header.offsetHeight;
 
 function recalculate(){
@@ -140,8 +146,6 @@ var startMainLogo = function(){
 
 window.addEventListener('load', setTimeout(startMainLogo, 1500));
 
-
-
 var startAnimate = once(function(){
     var self = document.querySelectorAll('object');
     for(var i=1; i<self.length-1; i++){
@@ -156,6 +160,61 @@ var startAnimate = once(function(){
 var startMap = once(function(){
     var self = document.querySelector('object#map');
     Array.prototype.forEach.call(self.contentDocument.querySelector('svg').querySelectorAll('animate'), function(animate){
+        if(!animate.hasAttribute('animation')) {
+            animate.beginElement();
+        }
+    });
+});
+
+discovery.addEventListener('mouseover', function(){
+    var self = discovery;
+    Array.prototype.forEach.call(self.contentDocument.querySelector('svg').querySelectorAll('animate, animateTransform'), function(animate){
+        if(!animate.hasAttribute('animation')) {
+            animate.beginElement();
+        }
+    });
+});
+
+
+uxDesign.addEventListener('mouseover', function(){
+    var self = uxDesign;
+    Array.prototype.forEach.call(self.contentDocument.querySelector('svg').querySelectorAll('animate, animateTransform'), function(animate){
+        if(!animate.hasAttribute('animation')) {
+            animate.beginElement();
+        }
+    });
+});
+
+prototype.addEventListener('mouseover', function(){
+    var self = prototype;
+    Array.prototype.forEach.call(self.contentDocument.querySelector('svg').querySelectorAll('animate, animateTransform'), function(animate){
+        if(!animate.hasAttribute('animation')) {
+            animate.beginElement();
+        }
+    });
+});
+
+userTesting.addEventListener('mouseover', function(){
+    var self = userTesting;
+    Array.prototype.forEach.call(self.contentDocument.querySelector('svg').querySelectorAll('animate, animateTransform'), function(animate){
+        if(!animate.hasAttribute('animation')) {
+            animate.beginElement();
+        }
+    });
+});
+
+uiSvg.addEventListener('mouseover', function(){
+    var self = uiSvg;
+    Array.prototype.forEach.call(self.contentDocument.querySelector('svg').querySelectorAll('animate, animateTransform'), function(animate){
+        if(!animate.hasAttribute('animation')) {
+            animate.beginElement();
+        }
+    });
+});
+
+development.addEventListener('mouseover', function(){
+    var self = development;
+    Array.prototype.forEach.call(self.contentDocument.querySelector('svg').querySelectorAll('animate, animateTransform'), function(animate){
         if(!animate.hasAttribute('animation')) {
             animate.beginElement();
         }
