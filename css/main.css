@@ -568,7 +568,7 @@ nav a:hover {
 @media screen and (max-width: 1380px) {
     .info-wrapper {
         max-width: inherit;
-        margin: 121px 15px 30px 15px;
+        margin: 0 15px 30px 15px;
         text-align: center;
     }
     .items {
@@ -701,6 +701,9 @@ nav a:hover {
     }
     .number-projects {
         width: 25%;
+    }
+    .info-wrapper {
+        padding-top: 50px;
     }
     .info-projects {
         width: 55%;
