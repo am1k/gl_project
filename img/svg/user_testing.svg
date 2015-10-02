@@ -41,16 +41,6 @@
                      fill="freeze"
                      id="small"
                 />
-                <animate
-                     animation="stop"
-                     attributeName="r"
-                     from="5"
-                     to="50"
-                     dur="0.3s"
-                     begin="small.end + 0.3s"
-                     repeatCount="1"
-                     fill="freeze"
-                />
         </circle>
 
         <animate

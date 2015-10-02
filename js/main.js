@@ -169,7 +169,7 @@ var startMap = once(function(){
 
 function checkViewAreaAnimate(){
     var scrolled = window.pageYOffset || document.documentElement.scrollTop;
-    if(flag && (scrolled + heightScreen >= infoStartAnimation) && (scrolled + heightScreen) <= infoStartAnimation + heightScreen/2) {
+    if(flag && (scrolled + heightScreen >= infoStartAnimation) && (scrolled + heightScreen) <= infoStartAnimation + heightScreen/1.25) {
         startAnimate();
     }
 }

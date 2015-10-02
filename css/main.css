@@ -239,8 +239,10 @@ nav a:hover {
     margin: 0;
 }
 .lear-more {
+    display: inline-block;
     color: #fff;
     background: #F15738;
+    text-decoration: none;
     font-family: "proxima_nova_ltsemibold";
     letter-spacing: 0.1em;
     font-size: 0.875rem;
@@ -260,6 +262,7 @@ nav a:hover {
 }
 .lear-more:hover{
     background: #D04327;
+    text-decoration: none;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -269,9 +272,9 @@ nav a:hover {
     margin-bottom: 45px;
 }
 .info-wrapper {
-
     max-width: 1150px;
-    margin: 121px auto 0;
+    margin: 0 auto;
+    padding-top: 121px;
 }
 .info-wrapper h1 {
     color: #292c33;
