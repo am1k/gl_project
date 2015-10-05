@@ -204,7 +204,11 @@ var addHandlers = function(){
     document.querySelector('.info-wrapper').addEventListener('mouseover', function(e){{
         if(e.target.tagName.toLocaleLowerCase() === 'object'){
             if(e.target === discovery){
-                startAnimation();
+                Array.prototype.forEach.call(e.target.contentDocument.querySelector('svg').querySelectorAll('animate, animateTransform'), function(animate){
+                    if(!animate.hasAttribute('animation')) {
+                        animate.beginElement();
+                    }
+                });
             }
             if(e.target === uxDesign){
                 Array.prototype.forEach.call(e.target.contentDocument.querySelector('svg').querySelectorAll('animate, animateTransform'), function(animate){
