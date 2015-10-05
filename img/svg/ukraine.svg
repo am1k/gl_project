@@ -243,8 +243,8 @@
     </circle>
     <path id="line"
         stroke="#484C56"
-        stroke-width="3"
-        stroke-dasharray="6"
+        stroke-width="1.2"
+        stroke-dasharray="3"
         transform='rotate(180)'
         >
         <animate animation="stop" attributeName="d" values="M-983 -225 v0;M-983 -225 v25; M-983 -225 v50; M-983 -225 v75; M-983 -225 v100"

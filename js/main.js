@@ -59,7 +59,7 @@ var project = new CountUp("project", 0, 236, 0, 1.4, options);
 
 var pixel = new CountUp("pixels", 0, 1.1, 1, 2, options);
 
-var hours = new CountUp("hours", 0, 2.4, 1, 1.8, options);
+var hours = new CountUp("hours", 0, 0.2, 1, 4.7, options);
 
 
 document.querySelector('.opener-btn').addEventListener('click', function(){
@@ -198,74 +198,76 @@ var icons = Promise.all(Array.prototype.map.call(objArray, function(item){
     checkViewAreaMap();
 });
 
+
+var addHandlers = function(){
+    var self = this;
+    document.querySelector('.info-wrapper').addEventListener('mouseover', function(e){{
+        if(e.target.tagName.toLocaleLowerCase() === 'object'){
+            if(e.target === discovery){
+                startAnimation();
+            }
+            if(e.target === uxDesign){
+                Array.prototype.forEach.call(e.target.contentDocument.querySelector('svg').querySelectorAll('animate, animateTransform'), function(animate){
+                    if(!animate.hasAttribute('animation')) {
+                        animate.beginElement();
+                    }
+                });
+            }
+            if(e.target === prototype){
+                Array.prototype.forEach.call(e.target.contentDocument.querySelector('svg').querySelectorAll('animate, animateTransform'), function(animate){
+                    if(!animate.hasAttribute('animation')) {
+                        animate.beginElement();
+                    }
+                });
+            }
+            if(e.target === userTesting){
+                Array.prototype.forEach.call(e.target.contentDocument.querySelector('svg').querySelectorAll('animate, animateTransform'), function(animate){
+                    if(!animate.hasAttribute('animation')) {
+                        animate.beginElement();
+                    }
+                });
+            }
+            if(e.target === uiSvg){
+                Array.prototype.forEach.call(e.target.contentDocument.querySelector('svg').querySelectorAll('animate, animateTransform'), function(animate){
+                    if(!animate.hasAttribute('animation')) {
+                        animate.beginElement();
+                    }
+                });
+            }
+            if(e.target === development){
+                Array.prototype.forEach.call(e.target.contentDocument.querySelector('svg').querySelectorAll('animate, animateTransform'), function(animate){
+                    if(!animate.hasAttribute('animation')) {
+                        animate.beginElement();
+                    }
+                });
+            }
+        }
+    }})
+};
+
+var addHandlerMap = function(){
+    var self = this;
+    document.querySelector('.ukraine-map').addEventListener('mouseover', function(e){
+        if(e.target.tagName.toLocaleLowerCase() === 'object'){
+            if(e.target === map) {
+                Array.prototype.forEach.call(e.target.contentDocument.querySelector('svg').querySelectorAll('#base1'), function (animate) {
+                    if (!animate.hasAttribute('animation')) {
+                        animate.beginElement();
+                    }
+                });
+            }
+        }
+    })
+};
+
 function responsiveStart(){
     if(document.body.clientWidth > 767){
         window.addEventListener('scroll', function () {
             checkViewAreaAnimate();
             checkViewAreaMap();
         });
-        discovery.addEventListener('mouseover', function(){
-            var self = discovery;
-            Array.prototype.forEach.call(self.contentDocument.querySelector('svg').querySelectorAll('animate, animateTransform'), function(animate){
-                if(!animate.hasAttribute('animation')) {
-                    animate.beginElement();
-                }
-            });
-        });
-
-
-        uxDesign.addEventListener('mouseover', function(){
-            var self = uxDesign;
-            Array.prototype.forEach.call(self.contentDocument.querySelector('svg').querySelectorAll('animate, animateTransform'), function(animate){
-                if(!animate.hasAttribute('animation')) {
-                    animate.beginElement();
-                }
-            });
-        });
-
-        prototype.addEventListener('mouseover', function(){
-            var self = prototype;
-            Array.prototype.forEach.call(self.contentDocument.querySelector('svg').querySelectorAll('animate, animateTransform'), function(animate){
-                if(!animate.hasAttribute('animation')) {
-                    animate.beginElement();
-                }
-            });
-        });
-
-        userTesting.addEventListener('mouseover', function(){
-            var self = userTesting;
-            Array.prototype.forEach.call(self.contentDocument.querySelector('svg').querySelectorAll('animate, animateTransform'), function(animate){
-                if(!animate.hasAttribute('animation')) {
-                    animate.beginElement();
-                }
-            });
-        });
-
-        uiSvg.addEventListener('mouseover', function(){
-            var self = uiSvg;
-            Array.prototype.forEach.call(self.contentDocument.querySelector('svg').querySelectorAll('animate, animateTransform'), function(animate){
-                if(!animate.hasAttribute('animation')) {
-                    animate.beginElement();
-                }
-            });
-        });
-
-        development.addEventListener('mouseover', function(){
-            var self = development;
-            Array.prototype.forEach.call(self.contentDocument.querySelector('svg').querySelectorAll('animate, animateTransform'), function(animate){
-                if(!animate.hasAttribute('animation')) {
-                    animate.beginElement();
-                }
-            });
-        });
-        map.addEventListener('mouseover', function(){
-            var self = map;
-            Array.prototype.forEach.call(self.contentDocument.querySelector('svg').querySelectorAll('animate#base1'), function(animate){
-                if(!animate.hasAttribute('animation')) {
-                    animate.beginElement();
-                }
-            });
-        });
+        addHandlers();
+        addHandlerMap();
     } else {
         document.querySelector('#ux-design').removeAttribute('data');
         document.querySelector('#ux-design').setAttribute('data', 'img/svg/ux_design_mobile.svg');

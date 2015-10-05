@@ -165,7 +165,7 @@ nav a {
     color: #b8bcc8;
     display: inline-block;
     text-transform: uppercase;
-    width: 129px;
+    padding: 0 20px;
     text-align: center;
     letter-spacing: 0.075em;
     vertical-align: top;
@@ -487,7 +487,10 @@ nav a:hover {
 #form {
     clear: both;
 }
-#form input {
+#form .form-group {
+    position: relative;
+}
+#form .form-group input {
     display: block;
     width: 700px;
     margin-top: 15px;
@@ -504,12 +507,16 @@ nav a:hover {
     box-sizing: border-box;
 }
 
-#form ::-webkit-input-placeholder {font-family: "proxima_nova_ltsemibold";}
-#form ::-moz-placeholder          {font-family: "proxima_nova_ltsemibold";}
-#form :-moz-placeholder           {font-family: "proxima_nova_ltsemibold";}
-#form :-ms-input-placeholder      {font-family: "proxima_nova_ltsemibold";}
+#form .form-group ::-webkit-input-placeholder {font-family: "proxima_nova_ltsemibold";}
+#form .form-group ::-moz-placeholder          {font-family: "proxima_nova_ltsemibold";}
+#form .form-group :-moz-placeholder           {font-family: "proxima_nova_ltsemibold";}
+#form .form-group :-ms-input-placeholder      {font-family: "proxima_nova_ltsemibold";}
 
-#form input:focus {
+#form .form-group input::-ms-clear {
+    display: none;
+}
+
+#form .form-group input:focus {
     outline: none;
     border-color: #10A1D4;
 }
@@ -530,6 +537,65 @@ nav a:hover {
     outline: none;
     border-color: #10a1d4;
 }
+.hide {
+    display: none;
+}
+.check {
+    display: none;
+}
+.close {
+    display: none;
+}
+#form .form-group input.fail {
+    border: 1px solid #D6523A;
+}
+.fail+.check+.close+.hide {
+    display: block;
+    position: absolute;
+    color: #D6523A;
+    top: 25%;
+    right: 7%;
+}
+.fail+.check+.close {
+    display: inline-block;
+    position: absolute;
+    top: 20%;
+    right: 0;
+}
+.fail+.check+.close:before {
+    display: inline-block;
+    content: " ";
+    width: 20px;
+    height: 1px;
+    border: 1px solid #D6523A;
+    transform: translate(10px, 0px) rotate(45deg);
+}
+.fail+.check+.close:after {
+    display: inline-block;
+    content: " ";
+    width: 20px;
+    height: 1px;
+    border: 1px solid #D6523A;
+    transform: translate(-12px, 0px) rotate(-45deg);
+}
+.success+.check{
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 20px;
+    right: 5%;
+    top: 5%;
+}
+.success+.check:before{
+    content: '';
+    display: block;
+    width: 10px;
+    height: 20px;
+    border: solid #10a1d4;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
 #button-submit {
     font-family: "proxima_nova_ltsemibold";
     font-size: 0.875rem;
@@ -746,7 +812,7 @@ nav a:hover {
     .line {
         display: none;
     }
-    #form input, #form textarea {
+    #form .form-group input, #form textarea {
         width: 100%;
     }
 }
@@ -772,6 +838,9 @@ nav a:hover {
     }
     .logo-items{
         width: 49%;
+    }
+    .fail+.check+.close+.hide {
+        right: 10%;
     }
 }
 @media screen and (max-width: 585px) {
@@ -815,6 +884,9 @@ nav a:hover {
     }
     .sub-success {
         margin-top: 0;
+    }
+    .fail+.check+.close+.hide {
+        right: 15%;
     }
 }
 @media screen and (max-width: 375px) {

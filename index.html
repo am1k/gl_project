@@ -158,7 +158,7 @@
         <div class="projects">
             <div class="number-projects hour-work">
                 <div id="hours"></div>
-                <div class="sub-success">hours of work</div>
+                <div class="sub-success">million hours of work</div>
             </div>
             <div class="info-projects">
                 <h1>Hours of <span class="blue">Work</span></h1>
@@ -206,10 +206,38 @@
             <p>Please fill in the following form to contact us</p>
             <span class="required">all fields are required</span>
             <form id="form">
-                <input type="text" name="firstname" placeholder="Name">
-                <input type="email" name="email" placeholder="Email">
-                <input type="tel" name="phone" placeholder="Phone">
-                <input type="text" name="subject" placeholder="Subject">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Name" required data-pattern="required">
+                    <span class="check"></span>
+                    <span class="close"></span>
+                    <span class="hide">
+                        Invalid Name
+                    </span>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Email" required data-pattern="email">
+                    <span class="check"></span>
+                    <span class="close"></span>
+                    <span class="hide">
+                        Invalid e-mail address
+                    </span>
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="phone" placeholder="Phone" required data-pattern="telephone">
+                    <span class="check"></span>
+                    <span class="close"></span>
+                    <span class="hide">
+                        Invalid phone number
+                    </span>
+                </div>
+                <div class="form-group">
+                <input type="text" id="subject" placeholder="Subject" required data-pattern="required">
+                    <span class="check"></span>
+                    <span class="close"></span>
+                    <span class="hide">
+                        Invalid subject
+                    </span>
+                </div>
                 <textarea></textarea>
                 <button type="submit" id="button-submit">Submit</button>
             </form>
@@ -222,4 +250,6 @@
 <script src="js/countUp.js"></script>
 <script src="js/Promise.min.js"></script>
 <script src="js/main.js"></script>
+<script src="js/validate.js"></script>
+
 </html>

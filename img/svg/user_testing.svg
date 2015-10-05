@@ -6,12 +6,12 @@
 	 <script type="text/ecmascript" xlink:href="../../js/smil.user.js"/>
 <g>
     <g>
-        <circle r="65px" opacity="1" cx="130px" cy="77.04px" stroke="black" stroke-width="3" fill="transparent">
+        <circle r="70px" opacity="1" cx="130px" cy="77.04px" stroke="black" stroke-width="3" fill="transparent">
                 <animate
                      animation="stop"
                      attributeName="r"
                      from="5"
-                     to="65"
+                     to="70"
                      dur="0.4s"
                      begin="show1.begin"
                      repeatCount="1"
@@ -22,14 +22,39 @@
                      animation="stop"
                      attributeName="r"
                      from="5"
-                     to="65"
+                     to="70"
                      dur="0.4s"
                      begin="big.end + 0.3s"
                      repeatCount="1"
                      fill="freeze"
+                     id="big1"
                 />
         </circle>
-        <circle r="50px" opacity="1" cx="129.64px" cy="77.19px" fill="#E46633">
+
+        <circle r="50px" opacity="1" cx="129.64px" cy="77.19px" stroke="#E46633" stroke-width="8" fill="transparent">
+                <animate
+                     animation="stop"
+                     attributeName="fill"
+                     from="transparent"
+                     to="#E46633"
+                     dur="0.01s"
+                     begin="show1.begin"
+                     repeatCount="1"
+                     fill="freeze"
+                />
+
+                <animate
+                     animation="stop"
+                     attributeName="fill"
+                     from="#E46633"
+                     to="transparent"
+                     dur="0.1s"
+                     begin="show4.end"
+                     repeatCount="1"
+                     fill="freeze"
+                     id="show5"
+                />
+
                 <animate
                      animation="stop"
                      attributeName="r"
@@ -43,9 +68,43 @@
                 />
         </circle>
 
+        <circle r="5px" opacity="0" cx="129.64px" cy="77.19px" stroke="#E46633" stroke-width="8" fill="#fff">
+                 <animate
+                        animation="stop"
+                        attributeName="opacity" values="0; 1" dur="0.1s"
+                        repeatCount="1"
+                        fill="freeze"
+                        begin="big1.end + 0.15s"
+                        id="show3"
+                 />
+                 <animate
+                        animation="stop"
+                        attributeName="r"
+                        from="5"
+                        to="50"
+                        dur="0.3s"
+                        begin="show3.end + 0.15s"
+                        repeatCount="1"
+                        fill="freeze"
+                        id="show4"
+                 />
+
+
+                 <animate
+                        animation="stop"
+                        attributeName="r"
+                        from="50"
+                        to="0"
+                        dur="0.001s"
+                        begin="show5.end"
+                        repeatCount="1"
+                        fill="freeze"
+                 />
+        </circle>
+
         <animate
             time="5.5"
-            attributeName="opacity" values="1; 0" dur="0.3s"
+            attributeName="opacity" values="1; 0" dur="0.2s"
             repeatCount="1"
             fill="freeze"
             begin="indefinite"
@@ -54,10 +113,10 @@
 
         <animate
             animation="stop"
-            attributeName="opacity" values="0; 1" dur="0.3s"
+            attributeName="opacity" values="0; 1" dur="0.2s"
             repeatCount="1"
             fill="freeze"
-            begin="show.end + 0.3s"
+            begin="show.end + 0.15s"
             id="show1"
         />
     </g>
