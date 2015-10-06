@@ -581,7 +581,7 @@ nav a:hover {
     .fail+.check+.close:before {
         display: inline-block;
         content: " ";
-        background: url("../img/icon_validation_false@2x.png")no-repeat;
+        background-image: url("../img/icon_validation_false@2x.png");
         background-size: cover;
         width: 44px;
         height: 44px;
@@ -606,7 +606,7 @@ nav a:hover {
     .success+.check:before{
         content: '';
         display: block;
-        background: url("../img/icon_validation_true@2x.png")no-repeat;
+        background-image: url("../img/icon_validation_true@2x.png");
         background-size: cover;
         width: 44px;
         height: 44px;
