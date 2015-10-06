@@ -555,55 +555,63 @@ nav a:hover {
     display: none;
 }
 #form .form-group input.fail {
-    border: 1px solid #D6523A;
+    border: 1px solid #F15738;
 }
 .fail+.check+.close+.hide {
     display: block;
     position: absolute;
-    color: #D6523A;
-    top: 25%;
+    color: #F15738;
+    top: 26%;
     right: 7%;
 }
 .fail+.check+.close {
     display: inline-block;
     position: absolute;
-    top: 20%;
-    right: 0;
+    top: 16%;
+    right: 2%;
 }
 .fail+.check+.close:before {
     display: inline-block;
     content: " ";
-    width: 20px;
-    height: 1px;
-    border: 1px solid #D6523A;
-    transform: translate(10px, 0px) rotate(45deg);
+    background: url("../img/icon_validation_false.png")no-repeat;
+    width: 22px;
+    height: 22px;
 }
-.fail+.check+.close:after {
-    display: inline-block;
-    content: " ";
-    width: 20px;
-    height: 1px;
-    border: 1px solid #D6523A;
-    transform: translate(-12px, 0px) rotate(-45deg);
+@media (-webkit-min-device-pixel-ratio: 2) {
+    .fail+.check+.close:before {
+        display: inline-block;
+        content: " ";
+        background: url("../img/icon_validation_false@2x.png")no-repeat;
+        background-size: cover;
+        width: 44px;
+        height: 44px;
+    }
 }
 .success+.check{
     display: block;
     position: absolute;
-    width: 10px;
-    height: 20px;
-    right: 3%;
-    top: 5%;
+    width: 22px;
+    height: 22px;
+    right: 2%;
+    top: 15%;
 }
 .success+.check:before{
     content: '';
     display: block;
-    width: 10px;
-    height: 20px;
-    border: solid #10a1d4;
-    border-width: 0 2px 2px 0;
-    transform: rotate(45deg);
+    background: url("../img/icon_validation_true.png")no-repeat;
+    width: 22px;
+    height: 22px;
 }
-
+@media (-webkit-min-device-pixel-ratio: 2) {
+    .success+.check:before{
+        content: '';
+        display: block;
+        background: url("../img/icon_validation_true@2x.png")no-repeat;
+        background-size: cover;
+        width: 44px;
+        height: 44px;
+    }
+}
 #button-submit {
     font-family: "proxima_nova_ltsemibold";
     font-size: 0.875rem;
