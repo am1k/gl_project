@@ -305,6 +305,7 @@ nav a:hover {
     color: #7e7e7e;
     font-family: "proxima_nova_rgregular";
     font-size: 1.125rem;
+    padding: 0 15px;
 }
 .partners {
     background: #F7F8F8;
