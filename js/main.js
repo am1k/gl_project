@@ -43,7 +43,6 @@ BrowserDetect.init();
 
 
 if(BrowserDetect.browser === 'Explorer' || BrowserDetect.browser === 'MS Edge'){
-    document.querySelector('#ui-svg').removeAttribute('data');
     document.querySelector('#ui-svg').setAttribute('data', 'img/svg/ui_design_ie.svg');
 }
 
@@ -59,7 +58,7 @@ var project = new CountUp("project", 0, 236, 0, 1.4, options);
 
 var pixel = new CountUp("pixels", 0, 1.1, 1, 2, options);
 
-var hours = new CountUp("hours", 0, 0.2, 1, 4.7, options);
+var hours = new CountUp("hours", 0, 2.4, 1, 2, options);
 
 
 document.querySelector('.opener-btn').addEventListener('click', function(){
@@ -273,7 +272,6 @@ function responsiveStart(){
         addHandlers();
         addHandlerMap();
     } else {
-        document.querySelector('#ux-design').removeAttribute('data');
         document.querySelector('#ux-design').setAttribute('data', 'img/svg/ux_design_mobile.svg');
     }
 }
