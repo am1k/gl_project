@@ -338,6 +338,7 @@ nav a:hover {
     padding: 43px 0 23px 30px;
     letter-spacing: 0.075em;
     text-transform: uppercase;
+    font-weight: normal;
 }
 .content-work {
     max-width: 1500px;
@@ -466,6 +467,7 @@ nav a:hover {
     font-family: "proxima_nova_rgbold";
     font-size: 1.125rem;
     line-height: 1.33;
+    font-weight: normal;
 }
 .more {
     color: #7C8089;
