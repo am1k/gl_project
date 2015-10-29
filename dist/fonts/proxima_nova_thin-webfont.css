@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Proxima Nova Th";
+    src: url("proxima_nova_thin-webfont.eot"); /* IE9 */
+    src: url("proxima_nova_thin-webfont.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("proxima_nova_thin-webfont.woff") format("woff"), /* chrome, firefox */
+    url("proxima_nova_thin-webfont.ttf") format("truetype"), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url("proxima_nova_thin-webfont.svg#Proxima Nova Th") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
+
+
