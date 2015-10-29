@@ -38,7 +38,7 @@ gulp.task('minifyCss', function(){
 });
 
 gulp.task('svgmin', function(){
-    return gulp.src('img/sng/*.svg')
+    return gulp.src('img/svg/*.svg')
         .pipe(svgmin())
         .pipe(gulp.dest('dist/svg'));
 });
